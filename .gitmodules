@@ -1,0 +1,3 @@
+[submodule "themes/elate"]
+	path = themes/elate
+	url = github@github.com:zjuvis/hugo-elate-theme.git
