@@ -2,7 +2,7 @@
 baseurl = "zjuvis.github.io"
 title = "ZJUVIS"
 languageCode = "en-us"
-theme = "zjuvis"
+theme = "elate"
 publishDir = "docs"
 
 [params]

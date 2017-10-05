@@ -4,3 +4,6 @@
 [submodule "docs"]
 	path = docs
 	url = github@github.com:zjuvis/zjuvis.github.io.git
+[submodule "themes/zjuvis"]
+	path = themes/zjuvis
+	url = git@github.com:zjuvis/site-theme.git
