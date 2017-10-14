@@ -1,13 +1,12 @@
 # Page settings
 BaseURL = "zjuvis.github.io"
-Title = "ZJUVIS | Zhejiang University Visualization Group"
+Title = "ZJUVis"
 LanguageCode = "en-us"
 theme = "zjuvis"
 publishDir = "docs"
 
 [params]
-
-  custom_css = ["css/custom.css"]
+  GroupName = "ZJUVis"
 
   # Meta
   Author = "ZJUVIS"
