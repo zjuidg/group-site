@@ -1,7 +1,7 @@
 # Page settings
-baseurl = "zjuvis.github.io"
-title = "ZJUVIS"
-languageCode = "en-us"
+BaseURL = "zjuvis.github.io"
+Title = "ZJUVIS | Zhejiang University Visualization Group"
+LanguageCode = "en-us"
 theme = "zjuvis"
 publishDir = "docs"
 
@@ -10,9 +10,11 @@ publishDir = "docs"
   custom_css = ["css/custom.css"]
 
   # Meta
-  author = ""
-  description = ""
-  email = "zjuvis@gmail.com"
+  Author = "ZJUVIS"
+  Description = "ZJUVIS Research Group Home"
+  Email = "zjuvis@gmail.com"
+  Keywords = "ZJUVIS, visualization, visual analysis, academic, research, Zhejiang University"
+
   # Navigation
   [params.navigation]
     brand = "ZJUVIS"
