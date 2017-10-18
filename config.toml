@@ -1,5 +1,5 @@
 # Page settings
-BaseURL = "zjuvis.github.io"
+BaseURL = "https://zjuvis.github.io/"
 Title = "ZJUVIS"
 LanguageCode = "en-us"
 theme = "zjuvis"
@@ -87,6 +87,10 @@ publishDir = "docs"
       Name = "Xiao Xie"
       Photo = "images/people/na.jpg"
       Position = "3rd Year Ph.D."
+    [[Params.Members.Items]]
+      Name = "Xiwen Cai"
+      Photo = "images/people/na.jpg"
+      Position = "3rd Year Master"
     [[Params.Members.Items]]
       Name = "Di Weng"
       Photo = "images/people/na.jpg"
