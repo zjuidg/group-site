@@ -1,18 +1,112 @@
 # Page settings
 BaseURL = "zjuvis.github.io"
-Title = "ZJUVis"
+Title = "ZJUVIS"
 LanguageCode = "en-us"
 theme = "zjuvis"
 publishDir = "docs"
 
-[params]
-  GroupName = "ZJUVis"
+[Params]
+  GroupName = "ZJUVIS"
 
   # Meta
   Author = "ZJUVIS"
   Description = "ZJUVIS Research Group Home"
   Email = "zjuvis@gmail.com"
   Keywords = "ZJUVIS, visualization, visual analysis, academic, research, Zhejiang University"
+
+  [Params.Carousel]
+    Height = 420
+    [[Params.Carousel.Items]]
+      Title = "Event #1"
+      Description = "Lorem lpsum lorem lpsum"
+      Image = "images/featured-1.jpg"
+    [[Params.Carousel.Items]]
+      Title = "Event #2"
+      Description = "Lorem lpsum lorem lpsum"
+      Image = "images/featured-2.jpg"
+    [[Params.Carousel.Items]]
+      Title = "Event #3"
+      Description = "Lorem lpsum lorem lpsum"
+      Image = "images/featured-3.jpg"
+
+  [Params.Demo]
+    [[Params.Demo.Items]]
+      Title = "iTTVis"
+      Description = "Lorem lpsum lorem lpsum"
+      Image = "images/featured-1.jpg"
+      Source = "InfoVis 2017"
+      Paper = "#"
+      Video = "#"
+      Demo = "#"
+    [[Params.Demo.Items]]
+      Title = "SmartAdP"
+      Description = "Lorem lpsum lorem lpsum"
+      Image = "images/featured-2.jpg"
+      Source = "VAST 2016 TVCG"
+      Paper = "#"
+      Video = "#"
+      Demo = "#"
+
+  [Params.Publications]
+    [[Params.Publications.Items]]
+      Year = "2017"
+      Title = "iTTVis: Interactive Visualization of Table Tennis Data"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2017)"
+      DOI = "10.1109/TVCG.2017.2744218"
+      Paper = "#"
+      Video = "#"
+      Demo = "#"
+      Authors = ["Yingcai Wu", "Ji Lan", "Xinhuan Shu", "Chenyang Ji", "Kejian Zhao", "Jiachen Wang", "Hui Zhang"]
+
+    [[Params.Publications.Items]]
+      Year = "2016"
+      Title = "SmartAdP: Visual Analytics of Large-scale Taxi Trajectories for Selecting Billboard Locations"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2016)"
+      DOI = "10.1109/TVCG.2016.2598432"
+      Paper = "#"
+      Video = "#"
+      Demo = "#"
+      Authors = ["Dongyu Liu", "Di Weng", "Yuhong Li", "Jie Bao", "Yu Zheng", "Huamin Qu", "Yingcai Wu"]
+
+  [Params.News]
+    [[Params.News.Items]]
+      Date = "Sep 1, 2017 - Pinned"
+      Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"#\">contact us</a>."
+    [[Params.News.Items]]
+      Date = "Oct 17, 2017"
+      Summary = "Our new site has been deployed! Check at <a href=\"#\">http://zjuvis.org</a>."
+    [[Params.News.Items]]
+      Date = "Oct 16, 2017"
+      Summary = "This is test news number 1."
+    [[Params.News.Items]]
+      Date = "Oct 15, 2017"
+      Summary = "This is test news number 2."
+
+  [Params.Members]
+    [[Params.Members.Items]]
+      Name = "Xiao Xie"
+      Photo = "images/people/na.jpg"
+      Position = "3rd Year Ph.D."
+    [[Params.Members.Items]]
+      Name = "Di Weng"
+      Photo = "images/people/na.jpg"
+      Position = "2nd Year Ph.D."
+    [[Params.Members.Items]]
+      Name = "Ji Lan"
+      Photo = "images/people/na.jpg"
+      Position = "2nd Year Ph.D."
+    [[Params.Members.Items]]
+      Name = "Tan Tang"
+      Photo = "images/people/na.jpg"
+      Position = "2nd Year Ph.D."
+    [[Params.Members.Items]]
+      Name = "Heming Zhu"
+      Photo = "images/people/na.jpg"
+      Position = "1st Year Master"
+    [[Params.Members.Items]]
+      Name = "Kaijuan Yuan"
+      Photo = "images/people/na.jpg"
+      Position = "1st Year Master"
 
   # Navigation
   [params.navigation]
