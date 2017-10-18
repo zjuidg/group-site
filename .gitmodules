@@ -1,9 +1,6 @@
-[submodule "themes/elate"]
-	path = themes/elate
-	url = github@github.com:zjuvis/hugo-elate-theme.git
 [submodule "docs"]
 	path = docs
-	url = github@github.com:zjuvis/zjuvis.github.io.git
+	url = git@github.com:zjuvis/zjuvis.github.io.git
 [submodule "themes/zjuvis"]
 	path = themes/zjuvis
 	url = git@github.com:zjuvis/site-theme.git
