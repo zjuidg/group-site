@@ -104,6 +104,10 @@ publishDir = "docs"
       Photo = "images/people/na.jpg"
       Position = "2nd Year Ph.D."
     [[Params.Members.Items]]
+      Name = "Sadia Rubab"
+      Photo = "images/people/na.jpg"
+      Position = "1st Year Ph.D."
+    [[Params.Members.Items]]
       Name = "Heming Zhu"
       Photo = "images/people/na.jpg"
       Position = "1st Year Master"
