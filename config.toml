@@ -72,7 +72,7 @@ publishDir = "docs"
       Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"#\">contact us</a>."
     [[Params.News.Items]]
       Date = "Oct 17, 2017"
-      Summary = "Our new site has been deployed! Check at <a href=\"https://zjuvis.org/\">https://zjuvis.org/</a>."
+      Summary = "Our new site has been deployed! Check at <a href=\"http://zjuvis.org/\">http://zjuvis.org/</a>."
 
   [Params.Members]
     [[Params.Members.Items]]
@@ -87,7 +87,7 @@ publishDir = "docs"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Di Weng"
-      Photo = "images/people/na.jpg"
+      Photo = "images/people/wengdi.jpg"
       Position = "2nd Year Ph.D."
       URL = "https://polymorphism.ac.cn"
     [[Params.Members.Items]]
@@ -114,6 +114,36 @@ publishDir = "docs"
       Name = "Kaijuan Yuan"
       Photo = "images/people/na.jpg"
       Position = "1st Year Master"
+      URL = "#"
+    [[Params.Members.Items]]
+      Name = "Kejian Zhao"
+      Photo = "images/people/na.jpg"
+      Position = "1st Year Master"
+      URL = "#"
+    [[Params.Members.Items]]
+      Name = "Dazhen Deng"
+      Photo = "images/people/na.jpg"
+      Position = "Undergraduate"
+      URL = "#"
+    [[Params.Members.Items]]
+      Name = "Hongye Liang"
+      Photo = "images/people/na.jpg"
+      Position = "Undergraduate"
+      URL = "#"
+    [[Params.Members.Items]]
+      Name = "Jiachen Wang"
+      Photo = "images/people/na.jpg"
+      Position = "Undergraduate"
+      URL = "#"
+    [[Params.Members.Items]]
+      Name = "Ran Chen"
+      Photo = "images/people/na.jpg"
+      Position = "Undergraduate"
+      URL = "#"
+    [[Params.Members.Items]]
+      Name = "Zikun Deng"
+      Photo = "images/people/na.jpg"
+      Position = "Undergraduate"
       URL = "#"
 
   # Navigation
