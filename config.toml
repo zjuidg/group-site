@@ -17,35 +17,34 @@ publishDir = "docs"
   [Params.Carousel]
     Height = 420
     [[Params.Carousel.Items]]
-      Title = "Event #1"
-      Description = "Lorem lpsum lorem lpsum"
-      Image = "images/featured-1.jpg"
+      Title = "Ji Lan presenting iTTVis on IEEE VIS 2017"
+      Description = "iTTVis: Interactive Visualization of Table Tennis Data"
+      Image = "/images/vis2017.jpg"
     [[Params.Carousel.Items]]
-      Title = "Event #2"
-      Description = "Lorem lpsum lorem lpsum"
-      Image = "images/featured-2.jpg"
+      Title = "Our paper has been accepted by IEEE InfoVis 2017!"
+      Description = "iTTVis: Interactive Visualization of Table Tennis Data"
+      Image = "/images/projects/ittvis.png"
     [[Params.Carousel.Items]]
-      Title = "Event #3"
-      Description = "Lorem lpsum lorem lpsum"
-      Image = "images/featured-3.jpg"
+      Title = "Our paper has been accepted by IEEE VAST 2016!"
+      Description = "SmartAdP: Visual Analytics of Large-scale Taxi Trajectories for Selecting Billboard Locations"
+      Image = "/images/projects/smartadp.png"
 
   [Params.Demo]
     [[Params.Demo.Items]]
       Title = "iTTVis"
-      Description = "Lorem lpsum lorem lpsum"
-      Image = "images/featured-1.jpg"
+      Description = "We propose iTTVis, a novel interactive table tennis visualization system, which to our knowledge, is the first visual analysis system for analyzing and exploring table tennis data. iTTVis provides a holistic visualization of an entire match from three main perspectives, namely, time-oriented, statistical, and tactical analyses."
+      Image = "/images/projects/ittvis.png"
       Source = "InfoVis 2017"
-      Paper = "#"
-      Video = "#"
-      Demo = "#"
+      Paper = "/files/ittvis.pdf"
+      Video = "/videos/ittvis.mp4"
     [[Params.Demo.Items]]
       Title = "SmartAdP"
-      Description = "Lorem lpsum lorem lpsum"
-      Image = "images/featured-2.jpg"
+      Description = "We present SmartAdP, an interactive visual analytics system that deals with the two major challenges including finding good solutions in a huge solution space and comparing the solutions in a visual and intuitive manner. An interactive framework that integrates a novel visualization-driven data mining model enables advertising planners to effectively and efficiently formulate good candidate solutions."
+      Image = "/images/projects/smartadp.png"
       Source = "VAST 2016 TVCG"
-      Paper = "#"
-      Video = "#"
-      Demo = "#"
+      Paper = "/files/smartadp.pdf"
+      Video = "/videos/smartadp.mp4"
+      Demo = "http://smartadp.chinacloudapp.cn/"
 
   [Params.Publications]
     [[Params.Publications.Items]]
@@ -53,9 +52,8 @@ publishDir = "docs"
       Title = "iTTVis: Interactive Visualization of Table Tennis Data"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2017)"
       DOI = "10.1109/TVCG.2017.2744218"
-      Paper = "#"
-      Video = "#"
-      Demo = "#"
+      Paper = "/files/ittvis.pdf"
+      Video = "/videos/ittvis.mp4"
       Authors = ["Yingcai Wu", "Ji Lan", "Xinhuan Shu", "Chenyang Ji", "Kejian Zhao", "Jiachen Wang", "Hui Zhang"]
 
     [[Params.Publications.Items]]
@@ -63,9 +61,9 @@ publishDir = "docs"
       Title = "SmartAdP: Visual Analytics of Large-scale Taxi Trajectories for Selecting Billboard Locations"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2016)"
       DOI = "10.1109/TVCG.2016.2598432"
-      Paper = "#"
-      Video = "#"
-      Demo = "#"
+      Paper = "/files/smartadp.pdf"
+      Video = "/videos/smartadp.mp4"
+      Demo = "http://smartadp.chinacloudapp.cn/"
       Authors = ["Dongyu Liu", "Di Weng", "Yuhong Li", "Jie Bao", "Yu Zheng", "Huamin Qu", "Yingcai Wu"]
 
   [Params.News]
@@ -74,47 +72,49 @@ publishDir = "docs"
       Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"#\">contact us</a>."
     [[Params.News.Items]]
       Date = "Oct 17, 2017"
-      Summary = "Our new site has been deployed! Check at <a href=\"#\">http://zjuvis.org</a>."
-    [[Params.News.Items]]
-      Date = "Oct 16, 2017"
-      Summary = "This is test news number 1."
-    [[Params.News.Items]]
-      Date = "Oct 15, 2017"
-      Summary = "This is test news number 2."
+      Summary = "Our new site has been deployed! Check at <a href=\"https://zjuvis.org/\">https://zjuvis.org/</a>."
 
   [Params.Members]
     [[Params.Members.Items]]
       Name = "Xiao Xie"
       Photo = "images/people/na.jpg"
       Position = "3rd Year Ph.D."
+      URL = "#"
     [[Params.Members.Items]]
       Name = "Xiwen Cai"
       Photo = "images/people/na.jpg"
       Position = "3rd Year Master"
+      URL = "#"
     [[Params.Members.Items]]
       Name = "Di Weng"
       Photo = "images/people/na.jpg"
       Position = "2nd Year Ph.D."
+      URL = "https://polymorphism.ac.cn"
     [[Params.Members.Items]]
       Name = "Ji Lan"
       Photo = "images/people/na.jpg"
       Position = "2nd Year Ph.D."
+      URL = "#"
     [[Params.Members.Items]]
       Name = "Tan Tang"
       Photo = "images/people/na.jpg"
       Position = "2nd Year Ph.D."
+      URL = "#"
     [[Params.Members.Items]]
       Name = "Sadia Rubab"
       Photo = "images/people/na.jpg"
       Position = "1st Year Ph.D."
+      URL = "#"
     [[Params.Members.Items]]
       Name = "Heming Zhu"
       Photo = "images/people/na.jpg"
       Position = "1st Year Master"
+      URL = "#"
     [[Params.Members.Items]]
       Name = "Kaijuan Yuan"
       Photo = "images/people/na.jpg"
       Position = "1st Year Master"
+      URL = "#"
 
   # Navigation
   [params.navigation]
