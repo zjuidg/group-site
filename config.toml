@@ -132,12 +132,12 @@ publishDir = "docs"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Jiachen Wang"
-      Photo = "images/people/na.jpg"
+      Photo = "images/people/wangjiachen.jpg"
       Position = "Undergraduate"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Ran Chen"
-      Photo = "images/people/chenran.jpg"
+      Photo = "images/people/chenran.png"
       Position = "Undergraduate"
       URL = "#"
     [[Params.Members.Items]]
