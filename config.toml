@@ -137,7 +137,7 @@ publishDir = "docs"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Ran Chen"
-      Photo = "images/people/na.jpg"
+      Photo = "images/people/chenran.jpg"
       Position = "Undergraduate"
       URL = "#"
     [[Params.Members.Items]]
