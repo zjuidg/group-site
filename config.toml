@@ -112,9 +112,9 @@ publishDir = "docs"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Kaijuan Yuan"
-      Photo = "images/people/na.jpg"
+      Photo = "images/people/yuankaijuan.jpg"
       Position = "1st Year Master"
-      URL = "#"
+      URL = "https://www.linkedin.com/in/kaijuan-yuan-362326b9/"
     [[Params.Members.Items]]
       Name = "Kejian Zhao"
       Photo = "images/people/na.jpg"
