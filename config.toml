@@ -49,12 +49,36 @@ publishDir = "docs"
   [Params.Publications]
     [[Params.Publications.Items]]
       Year = "2017"
+      Title = "StreamExplorer: A Multi-Stage System for Visually Exploring Events in Social Streams"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics"
+      DOI = "10.1109/TVCG.2017.2764459"
+      Paper = "/files/streamexplorer.pdf"
+      Authors = ["Yingcai Wu", "Zhutian Chen", "Guodao Sun", "Xiao Xie", "Nan Cao", "Shixia Liu", "Weiwei Cui"]
+
+    [[Params.Publications.Items]]
+      Year = "2017"
+      Title = "Cluster-based Visual Abstraction for Multivariate Scatterplots"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics"
+      DOI = "10.1109/TVCG.2017.2754480"
+      Paper = "/files/scatterplots.pdf"
+      Authors = ["Hongsen Liao", "Yingcai Wu", "Li Chen", "Wei Chen"]
+
+    [[Params.Publications.Items]]
+      Year = "2017"
       Title = "iTTVis: Interactive Visualization of Table Tennis Data"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2017)"
       DOI = "10.1109/TVCG.2017.2744218"
       Paper = "/files/ittvis.pdf"
       Video = "/videos/ittvis.mp4"
       Authors = ["Yingcai Wu", "Ji Lan", "Xinhuan Shu", "Chenyang Ji", "Kejian Zhao", "Jiachen Wang", "Hui Zhang"]
+
+    [[Params.Publications.Items]]
+      Year = "2016"
+      Title = "A Survey on Visual Analytics of Social Media Data "
+      Journal = "IEEE Transactions on Multimedia"
+      DOI = "10.1109/TMM.2016.2614220"
+      Paper = "/files/tmm-survey.pdf"
+      Authors = ["Yingcai Wu", "Nan Cao", "David Gotz", "Yap-Peng Tan", "and Daniel A. Keim"]
 
     [[Params.Publications.Items]]
       Year = "2016"
@@ -127,7 +151,7 @@ publishDir = "docs"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Hongye Liang"
-      Photo = "images/people/na.jpg"
+      Photo = "images/people/lianghongye.jpg"
       Position = "Undergraduate"
       URL = "#"
     [[Params.Members.Items]]
