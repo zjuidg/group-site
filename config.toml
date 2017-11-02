@@ -126,9 +126,9 @@ publishDir = "docs"
       URL = "http://www.tantang.org/"
     [[Params.Members.Items]]
       Name = "Sadia Rubab"
-      Photo = "images/people/na.jpg"
+      Photo = "images/people/sadiarubab.png"
       Position = "Ph.D. Since 2017"
-      URL = "#"
+      URL = "https://www.researchgate.net/profile/Sadia_Rubab"
     [[Params.Members.Items]]
       Name = "Heming Zhu"
       Photo = "images/people/zhuheming.jpg"
@@ -166,9 +166,9 @@ publishDir = "docs"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Yifang Wang"
-      Photo = "images/people/na.jpg"
+      Photo = "images/people/wangyifang.jpg"
       Position = "Undergraduate"
-      URL = "#"
+      URL = "http://wangyifang.top/about/"
     [[Params.Members.Items]]
       Name = "Zikun Deng"
       Photo = "images/people/dengzikun.jpg"
