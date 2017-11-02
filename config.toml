@@ -77,9 +77,9 @@ publishDir = "docs"
   [Params.Members]
     [[Params.Members.Items]]
       Name = "Xiao Xie"
-      Photo = "images/people/na.jpg"
+      Photo = "images/people/xiexiao.jpg"
       Position = "Ph.D. Since 2015"
-      URL = "#"
+      URL = "http://ssxiexiao.github.io/about/"
     [[Params.Members.Items]]
       Name = "Xiwen Cai"
       Photo = "images/people/caixiwen.jpg"
@@ -117,9 +117,9 @@ publishDir = "docs"
       URL = "https://www.linkedin.com/in/kaijuan-yuan-362326b9/"
     [[Params.Members.Items]]
       Name = "Kejian Zhao"
-      Photo = "images/people/na.jpg"
+      Photo = "images/people/zhaokejian.jpg"
       Position = "Master Since 2017"
-      URL = "#"
+      URL = "https://zhaokejian.github.io/about/"
     [[Params.Members.Items]]
       Name = "Dazhen Deng"
       Photo = "images/people/dengdazhen.jpg"
@@ -147,9 +147,9 @@ publishDir = "docs"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Zikun Deng"
-      Photo = "images/people/na.jpg"
+      Photo = "images/people/dengzikun.jpg"
       Position = "Undergraduate"
-      URL = "#"
+      URL = "https://mrsoldiers.github.io/"
 
   # Navigation
   [params.navigation]
