@@ -95,6 +95,12 @@ publishDir = "docs"
       Date = "Sep 1, 2017 - Pinned"
       Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"#\">contact us</a>."
     [[Params.News.Items]]
+      Date = "Nov 24, 2017"
+      Summary = "Ji Lan, one of our Ph.D. students, has received National Scholarship. Congratulations!"
+    [[Params.News.Items]]
+      Date = "Nov 24, 2017"
+      Summary = "Junpei Zhou, one of our undergraduate students, has been awarded Chu Kochen Scholarship. This is the second Chu Kochen Scholarship awarded to our undergraduate group members in two consecutive years, congratulations!"
+    [[Params.News.Items]]
       Date = "Oct 17, 2017"
       Summary = "Our new site has been deployed! Check at <a href=\"http://zjuvis.org/\">http://zjuvis.org/</a>."
 
