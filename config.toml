@@ -37,6 +37,7 @@ publishDir = "docs"
       Source = "InfoVis 2017"
       Paper = "/files/ittvis.pdf"
       Video = "/videos/ittvis.mp4"
+
     [[Params.Demo.Items]]
       Title = "SmartAdP"
       Description = "We present SmartAdP, an interactive visual analytics system that deals with the two major challenges including finding good solutions in a huge solution space and comparing the solutions in a visual and intuitive manner. An interactive framework that integrates a novel visualization-driven data mining model enables advertising planners to effectively and efficiently formulate good candidate solutions."
@@ -49,11 +50,25 @@ publishDir = "docs"
   [Params.Publications]
     [[Params.Publications.Items]]
       Year = "2017"
+      Title = "Querying Massive Trajectories by Path on the Cloud"
+      Journal = "Proceedings of the ACM SIGSPATIAL 2017 [Short Paper]"
+      Paper = "/files/PathQuery_Zheng_SIGSPATIAL17.pdf"
+      Authors = ["Ruiyuan Li", "Sijie Ruan", "Jie Bao", "Yanhua Li", "Yingcai Wu*", "Yu Zheng"]
+
+    [[Params.Publications.Items]]
+      Year = "2017"
+      Title = "Examining the effects of network externalities, density, and closure on in-game currency price in online games"
+      Journal = "Internet Research"
+      DOI = "10.1108/IntR-07-2016-0201"
+      Authors = ["Xuexin Xu", "Xiaodong Yang", "Junhua Lu", "Ji Lan*", "Tai-Quan Peng", "Yingcai Wu*", "Wei Chen"]
+
+    [[Params.Publications.Items]]
+      Year = "2017"
       Title = "StreamExplorer: A Multi-Stage System for Visually Exploring Events in Social Streams"
       Journal = "IEEE Transactions on Visualization and Computer Graphics"
       DOI = "10.1109/TVCG.2017.2764459"
       Paper = "/files/streamexplorer.pdf"
-      Authors = ["Yingcai Wu", "Zhutian Chen", "Guodao Sun", "Xiao Xie", "Nan Cao", "Shixia Liu", "Weiwei Cui"]
+      Authors = ["Yingcai Wu*", "Zhutian Chen*", "Guodao Sun", "Xiao Xie*", "Nan Cao", "Shixia Liu", "Weiwei Cui"]
 
     [[Params.Publications.Items]]
       Year = "2017"
@@ -61,7 +76,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics"
       DOI = "10.1109/TVCG.2017.2754480"
       Paper = "/files/scatterplots.pdf"
-      Authors = ["Hongsen Liao", "Yingcai Wu", "Li Chen", "Wei Chen"]
+      Authors = ["Hongsen Liao*", "Yingcai Wu*", "Li Chen", "Wei Chen"]
 
     [[Params.Publications.Items]]
       Year = "2017"
@@ -70,15 +85,30 @@ publishDir = "docs"
       DOI = "10.1109/TVCG.2017.2744218"
       Paper = "/files/ittvis.pdf"
       Video = "/videos/ittvis.mp4"
-      Authors = ["Yingcai Wu", "Ji Lan", "Xinhuan Shu", "Chenyang Ji", "Kejian Zhao", "Jiachen Wang", "Hui Zhang"]
+      Authors = ["Yingcai Wu*", "Ji Lan*", "Xinhuan Shu*", "Chenyang Ji*", "Kejian Zhao*", "Jiachen Wang*", "Hui Zhang"]
 
     [[Params.Publications.Items]]
       Year = "2016"
-      Title = "A Survey on Visual Analytics of Social Media Data "
+      Title = "Similarity Voting based Viewpoint Selection for Volumes"
+      Journal = "Computer Graphics Forum (EuroVis 2016)"
+      DOI = "10.1111/cgf.12915"
+      Authors = ["Yubo Tao", "Qirui Wang", "Wei Chen", "Yingcai Wu*", "Hai Lin"]
+
+    [[Params.Publications.Items]]
+      Year = "2016"
+      Title = "A Survey on Visual Analytics of Social Media Data"
       Journal = "IEEE Transactions on Multimedia"
       DOI = "10.1109/TMM.2016.2614220"
       Paper = "/files/tmm-survey.pdf"
-      Authors = ["Yingcai Wu", "Nan Cao", "David Gotz", "Yap-Peng Tan", "and Daniel A. Keim"]
+      Authors = ["Yingcai Wu*", "Nan Cao", "David Gotz", "Yap-Peng Tan", "Daniel A. Keim"]
+
+    [[Params.Publications.Items]]
+      Year = "2016"
+      Title = "Mining the Most Influential k-Location Set from Massive Trajectories"
+      Journal = "Proceedings of the ACM SIGSPATIAL 2016"
+      DOI = "10.1145/2996913.2997009"
+      Paper = "/files/trajectorycoverage_zheng.pdf"
+      Authors = ["Yuhong Li", "Jie Bao", "Yanhua Li", "Yingcai Wu*", "Zhiguo Gong", "Yu Zheng"]
 
     [[Params.Publications.Items]]
       Year = "2016"
@@ -88,12 +118,47 @@ publishDir = "docs"
       Paper = "/files/smartadp.pdf"
       Video = "/videos/smartadp.mp4"
       Demo = "http://smartadp.chinacloudapp.cn/"
-      Authors = ["Dongyu Liu", "Di Weng", "Yuhong Li", "Jie Bao", "Yu Zheng", "Huamin Qu", "Yingcai Wu"]
+      Authors = ["Dongyu Liu*", "Di Weng*", "Yuhong Li", "Jie Bao", "Yu Zheng", "Huamin Qu", "Yingcai Wu*"]
+
+    [[Params.Publications.Items]]
+      Year = "2016"
+      Title = "Embedding Spatio-temporal Information into Maps by Route-Zooming"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics"
+      DOI = "10.1109/TVCG.2016.2535234"
+      Paper = "/files/road_broadening.pdf"
+      Authors = ["Guodao Sun*", "Ronghua Liang", "Huamin Qu", "Yingcai Wu*"]
+
+    [[Params.Publications.Items]]
+      Year = "2016"
+      Title = "PieceStack: Toward Better Understanding of Stacked Graphs"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE PacificVis 2016)"
+      DOI = "10.1109/TVCG.2016.2534518"
+      Paper = "/files/piecestack.pdf"
+      Authors = ["Tongshuang Wu", "Yingcai Wu*", "Conglei Shi", "Huamin Qu", "Weiwei Cui"]
+
+    [[Params.Publications.Items]]
+      Year = "2016"
+      Title = "PeakVizor: Visual Analytics of Peaks in Video Clickstreams from Massive Open Online Courses"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics"
+      DOI = "10.1109/TVCG.2015.2505305"
+      Paper = "/files/peakvizor.pdf"
+      Authors = ["Qing Chen", "Yuanzhe Chen", "Dongyu Liu", "Conglei Shi", "Yingcai Wu*", "Huamin Qu"]
+
+    [[Params.Publications.Items]]
+      Year = "2016"
+      Title = "Follower-followee Network, Communication Networks and Vote Agreement of U.S. Members of Congress"
+      Journal = "Communication Research"
+      DOI = "10.1177/0093650214559601"
+      Paper = "http://journals.sagepub.com/doi/pdf/10.1177/0093650214559601"
+      Authors = ["Tai-Quan Peng", "Mengchen Liu", "Yingcai Wu*", "Shixia Liu"]
 
   [Params.News]
     [[Params.News.Items]]
       Date = "Sep 1, 2017 - Pinned"
-      Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"#\">contact us</a>."
+      Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"/contact/\">contact us</a>."
+    [[Params.News.Items]]
+      Date = "Dec 12, 2017"
+      Summary = "Our paper <b>HomeFinder Revisited: Finding Ideal Homes with Reachability-centric Multi-Criteria Decision Making</b> has been conditionally accepted by ACM CHI 2018."
     [[Params.News.Items]]
       Date = "Nov 24, 2017"
       Summary = "Ji Lan, one of our Ph.D. students, has received National Scholarship. Congratulations!"
