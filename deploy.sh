@@ -8,10 +8,10 @@ hugo
 pushd docs
 git add -A
 git commit -m "$1" && true
-p git push
+git push
 popd
 
 git add -A
 git commit -m "$1" && true
-p git push
+git push
 

@@ -17,6 +17,10 @@ publishDir = "docs"
   [Params.Carousel]
     Height = 420
     [[Params.Carousel.Items]]
+      Title = "Our paper has been accepted by ACM CHI 2018!"
+      Description = "HomeFinder Revisited: Finding Ideal Homes with Reachability-Centric Multi-Criteria Decision Making"
+      Image = "/images/projects/reach.png"
+    [[Params.Carousel.Items]]
       Title = "Ji Lan presenting iTTVis on IEEE VIS 2017"
       Description = "iTTVis: Interactive Visualization of Table Tennis Data"
       Image = "/images/vis2017.jpg"
@@ -24,12 +28,16 @@ publishDir = "docs"
       Title = "Our paper has been accepted by IEEE InfoVis 2017!"
       Description = "iTTVis: Interactive Visualization of Table Tennis Data"
       Image = "/images/projects/ittvis.jpg"
-    [[Params.Carousel.Items]]
-      Title = "Our paper has been accepted by IEEE VAST 2016!"
-      Description = "SmartAdP: Visual Analytics of Large-scale Taxi Trajectories for Selecting Billboard Locations"
-      Image = "/images/projects/smartadp.png"
 
   [Params.Demo]
+    [[Params.Demo.Items]]
+      Title = "ReACH"
+      Description = "Finding an ideal home is a difficult and laborious process. By characterizing user requirements and analytical tasks in the context of finding ideal homes, we designed ReACH, a novel visual analytics system that assists people in finding, evaluating, and choosing a home based on multiple criteria, including reachability."
+      Image = "/images/projects/reach.png"
+      Source = "ACM CHI 2018"
+      Paper = "/files/reach.pdf"
+      Video = "https://youtu.be/WcjMXAfuygg"
+
     [[Params.Demo.Items]]
       Title = "iTTVis"
       Description = "We propose iTTVis, a novel interactive table tennis visualization system, which to our knowledge, is the first visual analysis system for analyzing and exploring table tennis data. iTTVis provides a holistic visualization of an entire match from three main perspectives, namely, time-oriented, statistical, and tactical analyses."
@@ -38,20 +46,44 @@ publishDir = "docs"
       Paper = "/files/ittvis.pdf"
       Video = "/videos/ittvis.mp4"
 
-    [[Params.Demo.Items]]
-      Title = "SmartAdP"
-      Description = "We present SmartAdP, an interactive visual analytics system that deals with the two major challenges including finding good solutions in a huge solution space and comparing the solutions in a visual and intuitive manner. An interactive framework that integrates a novel visualization-driven data mining model enables advertising planners to effectively and efficiently formulate good candidate solutions."
-      Image = "/images/projects/smartadp.png"
-      Source = "VAST 2016 TVCG"
-      Paper = "/files/smartadp.pdf"
-      Video = "/videos/smartadp.mp4"
-      Demo = "http://smartadp.chinacloudapp.cn/"
-
   [Params.Publications]
+    [[Params.Publications.Items]]
+      Year = "2018"
+      Title = "A Semantic-based Method for Visualizing Large Image Collections"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics"
+      Paper = "/files/imgvis.pdf"
+      Video = "/videos/imgvis.mp4"
+      Authors = ["Xiao Xie*", "Xiwen Cai*", "Junpei Zhou", "Nan Cao", "Yingcai Wu*"]
+
+    [[Params.Publications.Items]]
+      Year = "2018"
+      Title = "A Study of the Effect of Doughnut Chart Parameters on Proportion Estimation Accuracy"
+      Journal = "Computer Graphics Forum"
+      Paper = "/files/donutchart.pdf"
+      DOI = "10.1111/cgf.13325"
+      Authors = ["Xiwen Cai*", "Konstantinos Efstathiou", "Xiao Xie*", "Yingcai Wu*", "Yan Shi", "Lingyun Yu"]
+
+    [[Params.Publications.Items]]
+      Year = "2018"
+      Title = "HomeFinder Revisited: Finding Ideal Homes with Reachability-Centric Multi-Criteria Decision Making"
+      Journal = "Proc. of the ACM CHI 2018"
+      Paper = "/files/reach.pdf"
+      DOI = "10.1145/3173574.3173821"
+      Video = "https://youtu.be/WcjMXAfuygg"
+      Authors = ["Di Weng*", "Heming Zhu*", "Jie Bao", "Yu Zheng", "Yingcai Wu*"]
+
+    [[Params.Publications.Items]]
+      Year = "2017"
+      Title = "Exploring the design space of immersive urban analytics"
+      Journal = "Visual Informatics"
+      DOI = "10.1016/j.visinf.2017.11.002"
+      Paper = "/files/arvis.pdf"
+      Authors = ["Zhutian Chen*", "Yifang Wang*", "Tianchen Sun*", "Xiang Gao", "Wei Chen", "Zhigeng Pan", "Huamin Qu", "Yingcai Wu*"]
+
     [[Params.Publications.Items]]
       Year = "2017"
       Title = "Querying Massive Trajectories by Path on the Cloud"
-      Journal = "Proceedings of the ACM SIGSPATIAL 2017 [Short Paper]"
+      Journal = "Proc. of the ACM SIGSPATIAL 2017 [Short Paper]"
       Paper = "/files/PathQuery_Zheng_SIGSPATIAL17.pdf"
       Authors = ["Ruiyuan Li", "Sijie Ruan", "Jie Bao", "Yanhua Li", "Yingcai Wu*", "Yu Zheng"]
 
@@ -69,6 +101,7 @@ publishDir = "docs"
       DOI = "10.1109/TVCG.2017.2764459"
       Paper = "/files/streamexplorer.pdf"
       Authors = ["Yingcai Wu*", "Zhutian Chen*", "Guodao Sun", "Xiao Xie*", "Nan Cao", "Shixia Liu", "Weiwei Cui"]
+      Video = "/videos/streamexplorer.mp4"
 
     [[Params.Publications.Items]]
       Year = "2017"
@@ -105,7 +138,7 @@ publishDir = "docs"
     [[Params.Publications.Items]]
       Year = "2016"
       Title = "Mining the Most Influential k-Location Set from Massive Trajectories"
-      Journal = "Proceedings of the ACM SIGSPATIAL 2016"
+      Journal = "Proc. of the ACM SIGSPATIAL 2016"
       DOI = "10.1145/2996913.2997009"
       Paper = "/files/trajectorycoverage_zheng.pdf"
       Authors = ["Yuhong Li", "Jie Bao", "Yanhua Li", "Yingcai Wu*", "Zhiguo Gong", "Yu Zheng"]
@@ -156,6 +189,9 @@ publishDir = "docs"
     [[Params.News.Items]]
       Date = "Sep 1, 2017 - Pinned"
       Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"/contact/\">contact us</a>."
+    [[Params.News.Items]]
+      Date = "Feb 5th, 2018"
+      Summary = "Our paper <b>A Semantic-based Method for Visualizing Large Image Collections</b> has been accepted by IEEE TVCG."
     [[Params.News.Items]]
       Date = "Dec 12, 2017"
       Summary = "Our paper <b>HomeFinder Revisited: Finding Ideal Homes with Reachability-centric Multi-Criteria Decision Making</b> has been conditionally accepted by ACM CHI 2018."
