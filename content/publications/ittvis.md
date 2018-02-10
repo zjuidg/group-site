@@ -9,8 +9,9 @@ doi: "10.1109/TVCG.2017.2744218"
 paper: "/files/ittvis.pdf"
 video: "/videos/ittvis.mp4"
 demo: "/iTTVis_1.0"
-authors: ["Yingcai Wu*", "Ji Lan*", "Xinhuan Shu*", "Chenyang Ji*", "Kejian Zhao*", "Jiachen Wang*", "Hui Zhang"]
 image: "/images/projects/ittvis.jpg"
+sc_project: 11626044
+sc_security: "8cb8f7b7"
 ---
 ## Abstract
 The rapid development of information technology paved the way for the recording of fine-grained data, such as stroke
@@ -26,5 +27,33 @@ system with several well-coordinated views not only supports correlation identif
 with a score timeline but also allows cross analysis to gain insights. Data analysts have obtained several new insights by using iTTVis.
 The effectiveness and usability of the proposed system are demonstrated with four case studies.
 
-#### interested
-hello world
+## BibTex
+```bibtex
+@article{DBLP:journals/tvcg/WuLSJZWZ18,
+  author    = {Yingcai Wu and
+               Ji Lan and
+               Xinhuan Shu and
+               Chenyang Ji and
+               Kejian Zhao and
+               Jiachen Wang and
+               Hui Zhang},
+  title     = {iTTVis: Interactive Visualization of Table Tennis Data},
+  journal   = {{IEEE} Trans. Vis. Comput. Graph.},
+  volume    = {24},
+  number    = {1},
+  pages     = {709--718},
+  year      = {2018},
+  url       = {https://doi.org/10.1109/TVCG.2017.2744218},
+  doi       = {10.1109/TVCG.2017.2744218},
+  timestamp = {Wed, 10 Jan 2018 15:12:39 +0100},
+  biburl    = {http://dblp.org/rec/bib/journals/tvcg/WuLSJZWZ18},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+```
+
+## Acknowledgements
+The authors would like to thank Hui Chen from the College of Computer Sciene and Technology, Zhejiang University, and Zheng Zhou from the Department of Physical Education, College of Education, Zhejiang University for providing valuable feedback and suggestions for this project. The work was supported by National 973 Program of China (2015CB352503), NSFC (U1609217, 61502416), the Fundamental Research Funds for Central Universities (2017XZA217, 2016QNA5014), and 100 Talents Program of Zhejiang University.
+
+
+
+*If you have any further inquiries, please contact [Dr. Ji Lan](lanjizju.github.io/)([lanjiZJU@gmail.com](mailto://lanjiZJU@gmail.com?subject=iTTVis_1.0 feedback))*
