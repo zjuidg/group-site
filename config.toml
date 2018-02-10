@@ -46,6 +46,7 @@ publishDir = "docs"
       Paper = "/files/ittvis.pdf"
       Video = "/videos/ittvis.mp4"
       Demo = "/iTTVis_1.0"
+      Page = '/publications/ittvis'
 
   [Params.Publications]
     [[Params.Publications.Items]]
