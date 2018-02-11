@@ -39,7 +39,7 @@ publishDir = "docs"
       Video = "https://youtu.be/WcjMXAfuygg"
 
     [[Params.Demo.Items]]
-      Title = "iTTVis"
+      Title = "<a href=\"/publications/ittvis\">iTTVis</a>"
       Description = "We propose iTTVis, a novel interactive table tennis visualization system, which to our knowledge, is the first visual analysis system for analyzing and exploring table tennis data. iTTVis provides a holistic visualization of an entire match from three main perspectives, namely, time-oriented, statistical, and tactical analyses."
       Image = "/images/projects/ittvis.jpg"
       Source = "InfoVis 2017"
@@ -55,7 +55,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics"
       Paper = "/files/imgvis.pdf"
       Video = "/videos/imgvis.mp4"
-      Authors = ["Xiao Xie*", "Xiwen Cai*", "Junpei Zhou", "Nan Cao", "Yingcai Wu*"]
+      Authors = ["Xiao Xie*", "Xiwen Cai*", "Junpei Zhou*", "Nan Cao", "Yingcai Wu*"]
 
     [[Params.Publications.Items]]
       Year = "2018"
