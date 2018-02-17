@@ -35,4 +35,4 @@ For a table tennis match with two players A and B, a data table with hundreds of
 </p>
 
 # Contact
-If you have any further inquiries, please contact [Dr. Ji Lan](lanjizju.github.io/)([lanjiZJU@gmail.com](mailto://lanjiZJU@gmail.com?subject=iTTVis_1.0 feedback))
+If you have any further inquiries, please contact [Dr. Lan](lanjizju.github.io/)([lanjiZJU@gmail.com](mailto://lanjiZJU@gmail.com?subject=iTTVis_1.0 feedback))

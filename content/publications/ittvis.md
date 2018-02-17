@@ -13,6 +13,9 @@ image: "/images/projects/ittvis.jpg"
 sc_project: 11626044
 sc_security: "8cb8f7b7"
 ---
+<div class="subtitle">
+  included in <a href="/ittvis_framework">iTTVis Framework</a>
+</div>
 ## Abstract
 The rapid development of information technology paved the way for the recording of fine-grained data, such as stroke
 techniques and stroke placements, during a table tennis match. This data recording creates opportunities to analyze and evaluate
@@ -56,4 +59,4 @@ The authors would like to thank Hui Chen from the College of Computer Sciene and
 
 
 
-*If you have any further inquiries, please contact [Dr. Ji Lan](lanjizju.github.io/)([lanjiZJU@gmail.com](mailto://lanjiZJU@gmail.com?subject=iTTVis_1.0 feedback))*
+*If you have any further inquiries, please contact [Dr. Lan](lanjizju.github.io/)([lanjiZJU@gmail.com](mailto://lanjiZJU@gmail.com?subject=iTTVis_1.0 feedback))*
