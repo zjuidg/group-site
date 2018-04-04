@@ -1,6 +1,6 @@
 ---
 title: "iTTVis: Interactive Visualization of Table Tennis Data"
-shortname: "iTTVis_1.0"
+shortname: "iTTVis"
 date: 2018-02-07T16:58:34+08:00
 type: "publications"
 year: "2017"

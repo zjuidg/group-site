@@ -1,5 +1,5 @@
 ---
-title: "iTTVis_1.0 Instruction"
+title: "iTTVis Instruction"
 date: 2018-02-16T14:34:48+08:00
 type: "ittvis_framework"
 publication: "/publications/ittvis"
