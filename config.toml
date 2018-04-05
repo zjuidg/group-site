@@ -45,7 +45,7 @@ publishDir = "docs"
       Source = "InfoVis 2017"
       Paper = "/files/ittvis.pdf"
       Video = "/videos/ittvis.mp4"
-      Demo = "/iTTVis_1.0"
+      Demo = "/iTTVis"
       Page = '/ittvis_framework'
 
   [Params.Publications]
@@ -120,7 +120,7 @@ publishDir = "docs"
       DOI = "10.1109/TVCG.2017.2744218"
       Paper = "/files/ittvis.pdf"
       Video = "/videos/ittvis.mp4"
-      Demo = "/iTTVis_1.0"
+      Demo = "/iTTVis"
       Authors = ["Yingcai Wu*", "Ji Lan*", "Xinhuan Shu*", "Chenyang Ji*", "Kejian Zhao*", "Jiachen Wang*", "Hui Zhang"]
 
     [[Params.Publications.Items]]

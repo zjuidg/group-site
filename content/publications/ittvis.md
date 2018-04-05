@@ -8,7 +8,7 @@ journal: "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis
 doi: "10.1109/TVCG.2017.2744218"
 paper: "/files/ittvis.pdf"
 video: "/videos/ittvis.mp4"
-demo: "/iTTVis_1.0"
+demo: "/iTTVis"
 image: "/images/projects/ittvis.jpg"
 sc_project: 11626044
 sc_security: "8cb8f7b7"

@@ -4,7 +4,7 @@ date: 2018-02-16T14:34:48+08:00
 type: "ittvis_framework"
 publication: "/publications/ittvis"
 publication_name: "iTTVis: Interactive Visualization of Table Tennis Data"
-demo: "/iTTVis_1.0/"
+demo: "/iTTVis/"
 demo_name: "iTTVis"
 video: "/videos/ittvis.mp4"
 paper: "/files/ittvis.pdf"
