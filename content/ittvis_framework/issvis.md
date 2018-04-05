@@ -13,8 +13,6 @@ Table tennis players usually employ numerous complicated playing techniques and 
 
 Our system consists of two views as follows:
 
-_More details can be found in [paper](/files/issvis.pdf)._
-
 # Matrix View
 The system aims to provide a concise and comparable overview and flexible navigation of the statistical information of diverse stroke subsequences to help users locate interesting subsequences.
 The matrix view **(A)** consisting of seven well-organized matrices with rich interactions fulfills the two tasks: clutter-free presentation and easy navigation of stroke subsequences for two players. The matrices above **(A-2, A-3, and A-4)** present statistical information of stroke subsequences specified by pairwise stroke attributes of player one **(P1)**. Similarly, the matrices below **(A-11, A-12, and A-13)** present the information of player two **(P2)**. Considering that stroke placement is the most important attribute according to domain knowledge, we placed matrices related to the placement in the middle, and added a matrix **(A-10)** to present stroke subsequences specified by the stroke placements of two players.

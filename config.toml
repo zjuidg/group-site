@@ -288,7 +288,7 @@ publishDir = "docs"
   [Params.IttvisTools]
     [[Params.IttvisTools.Items]]
       Name = "iTTVis Instruction"
-      URL = "/ittvis_framework/ittvis_1.0"
+      URL = "/ittvis_framework/ittvis"
     [[Params.IttvisTools.Items]]
       Name = "iSSVis Instruction"
       URL = "/ittvis_framework/issvis"
