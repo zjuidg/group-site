@@ -4,7 +4,7 @@ date: 2018-02-14T20:42:07+08:00
 type: "ittvis_framework"
 ---
 # About
-This is an open source visual analysis framework for comprehensive analysis of the table tennis match. The biggest strength of this framework is the deep exploration on tactical and technical features of table tennis players. We provide data format and example data for a table tennis match. You can explore various aspects of a table tennis match, such as varying patterns of scores and correlation patterns of stroke attributes. By this way, you can get a big picture of the match quickly and obtain the required information accurately. And you will gradually understand how domain experts of table tennis are aided by these visualizations in the analysis of table tennis data. This framework is worked out with very experienced domain experts who worked for the Chinese national table tennis team, and has been incorporated into the analysis of the table tennis match.
+This is an open source visual analysis framework targeted at table tennis data. We collaborate with senior table tennis experts who worked for the Chinese national table tennis team to establish this framework to achieve an in-depth analysis of features of players during table tennis matches. You can explore the time-varying scores, multi-attribute strokes, and elaborate tactics of table tennis players. iTTVis framework has been successfully incorporated into the analysis of the table tennis match by the experts. We provide a data format and an example data file for table tennis match. All visual analytics systems that we developed are available for access.
 
 # Featured Publication
 <div class="link publication">
