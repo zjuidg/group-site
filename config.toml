@@ -287,11 +287,11 @@ publishDir = "docs"
 
   [Params.IttvisTools]
     [[Params.IttvisTools.Items]]
-      Name = "iTTVis Instruction"
-      URL = "/ittvis_framework/ittvis"
+      Name = "iTTVis"
+      URL = "/iTTVis"
     [[Params.IttvisTools.Items]]
-      Name = "iSSVis Instruction"
-      URL = "/ittvis_framework/issvis"
+      Name = "iSSVis"
+      URL = "/iSSVis"
 
   [Params.IttvisFrameworkCoreTeam]
     [[Params.IttvisFrameworkCoreTeam.Items]]
@@ -315,20 +315,22 @@ publishDir = "docs"
       Description = "Master Student, Zhejiang University"
       URL = "https://zhaokejian.github.io/about/"
     [[Params.IttvisFrameworkCoreTeam.Items]]
-      Name = "Xinhuan Shu"
-      Photo = "images/ittvis_framework/shuxinhuan.jpg"
-      Description = "PhD Student, HKUST"
-      URL = "https://shuxinhuan.github.io/about/"
-    [[Params.IttvisFrameworkCoreTeam.Items]]
-      Name = "Chenyang Ji"
-      Photo = "images/ittvis_framework/jichenyang.png"
-      Description = "Master Student, Yale University"
-      URL = "https://chenyangji.wordpress.com/"
-    [[Params.IttvisFrameworkCoreTeam.Items]]
       Name = "Jiang Wu"
       Photo = "images/ittvis_framework/wujiang.jpeg"
       Description = "Undergraduate Student, Zhejiang University"
       URL = "#"
+
+  [Params.IttvisFrameworkPastTeam]
+    [[Params.IttvisFrameworkPastTeam.Items]]
+      Name = "Xinhuan Shu"
+      Photo = "images/ittvis_framework/shuxinhuan.jpg"
+      Description = "PhD Student, HKUST"
+      URL = "https://shuxinhuan.github.io/about/"
+    [[Params.IttvisFrameworkPastTeam.Items]]
+      Name = "Chenyang Ji"
+      Photo = "images/ittvis_framework/jichenyang.png"
+      Description = "Master Student, Yale University"
+      URL = "https://chenyangji.wordpress.com/"
 
   [Params.IttvisCoreTeam]
     [[Params.IttvisCoreTeam.Items]]
