@@ -1,35 +1,33 @@
 ---
-title: "iTTVis Framework"
+title: "Visualization Framework For Table Tennis Analysis"
 date: 2018-02-14T20:42:07+08:00
 type: "ittvis_framework"
 ---
 # About
-This is an open source visual analysis framework targeted at table tennis data. We collaborate with senior table tennis experts who worked for the Chinese national table tennis team to establish this framework to achieve an in-depth analysis of features of players during table tennis matches. You can explore the time-varying scores, multi-attribute strokes, and elaborate tactics of table tennis players. iTTVis framework has been successfully incorporated into the analysis of the table tennis match by the experts. We provide a data format and an example data file for table tennis match. All visual analytics systems that we developed are available for access.
+It is an open source visual analysis framework for table tennis analysis. We have been collaborating with senior table tennis experts who worked for the Chinese national table tennis team to design and develop this framework. Traditional methods, such as statistical models and video analysis, target particular problems and fail to locate unexpected patterns. This framework hence aims to provide a quick and holistic view of the different stroke techniques and sophisticated playing tactics during the fast-paced and highly dynamic table tennis sports. You can explore the time-varying scores, multi-attribute strokes, and elaborate tactics of table tennis players with the help of this framework.
+
+Till now, two projects have been developed in the framework. The first project is the first attempt to systematically characterize the domain problems of analysis of table tennis data. The visualization system built in this project, iTTVis, supports detection of time-varying patterns of scores, correlations patterns of stroke attributes, and frequent patterns of tactics in a table tennis match. After iTTVis, the second project was further proposed to fulfill the new requirements for analyses of the co-evolution of stroke attributes over a specified stroke subsequence. These analyses are crucial for experts to identify temporal characteristics of techniques and tactics of players. The visualization system in the project, iSSVis, can help experts navigate through diverse stroke subsequences and explore time-varying features, reasons, and effects of strokes in a subsequence comprehensibly. Two visualization systems have been successfully incorporated into the analysis of the table tennis match by the experts. This webpage provides demos of the two systems. It also provides a data format and an example data file for table tennis match.
 
 # Project
 <p>
 <div class="link project">
-  <a href="/ittvis_framework/ittvis">
-    <i class="fa fa-cube"></i>iTTVis
+  <a href="/ittvis_framework/issvis">
+    <i class="fa fa-cube"></i>
+    <highlight>iSSVis: Interactive Visualization of Stroke Subsequences in Table Tennis</highlight>
+    <sup class="flag">new</sup>
   </a>
 </div>
 <div class="project">
-  <p>
-    This project is the first attempt to systematically characterize the domain problems of analysis of table tennis data. The visualization system built in this project, iTTVis, supports detection of time-varying patterns of scores, correlations patterns of stroke attributes, and frequent patterns of tactics in a table tennis match.
-  </p>
-  <img src="/images/ittvis_framework/ittvis_paper.png">
+  <video src="/videos/issvis.mp4" controls="controls" width="100%"></video>
 </div>
 
 <div class="link project">
-  <a href="/ittvis_framework/issvis">
-    <i class="fa fa-cube"></i>iSSVis <sup class="flag">new</sup>
+  <a href="/ittvis_framework/ittvis">
+    <i class="fa fa-cube"></i>iTTVis: Interactive Visualization of Table Tennis Data
   </a>
 </div>
 <div class="project">
-  <p>
-    This project supports analysis of the co-evolution of stroke attributes over a specified stroke subsequence, which is crucial for experts to further identify temporal characteristics of techniques and tactics of players. The visualization system, iSSVis, supports navigation of diverse stroke subsequences and comprehensible representation of time-varying features, reasons, and effects of strokes in a subsequence.
-  </p>
-  <img src="/images/ittvis_framework/issvis_overview.png">
+  <video src="/videos/ittvis.mp4" controls="controls" width="100%"></video>
 </div>
 </p>
 

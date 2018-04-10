@@ -293,6 +293,14 @@ publishDir = "docs"
       Name = "iSSVis"
       URL = "/iSSVis"
 
+  [Params.IttvisProjects]
+    [[Params.IttvisProjects.Items]]
+      Name = "iTTVis Instruction"
+      URL = "/ittvis_framework/ittvis"
+    [[Params.IttvisProjects.Items]]
+      Name = "iSSVis Instruction"
+      URL = "/ittvis_framework/issvis"
+
   [Params.IttvisFrameworkCoreTeam]
     [[Params.IttvisFrameworkCoreTeam.Items]]
       Name = "Yingcai Wu"
