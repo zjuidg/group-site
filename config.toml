@@ -295,10 +295,10 @@ publishDir = "docs"
 
   [Params.IttvisProjects]
     [[Params.IttvisProjects.Items]]
-      Name = "iTTVis Instruction"
+      Name = "iTTVis"
       URL = "/ittvis_framework/ittvis"
     [[Params.IttvisProjects.Items]]
-      Name = "iSSVis Instruction"
+      Name = "iSSVis"
       URL = "/ittvis_framework/issvis"
 
   [Params.IttvisFrameworkCoreTeam]
