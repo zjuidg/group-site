@@ -213,7 +213,7 @@ publishDir = "docs"
       Name = "Xiao Xie"
       Photo = "images/people/xiexiao.jpg"
       Position = "Ph.D. Since 2015"
-      URL = "http://ssxiexiao.github.io/about/"
+      URL = "http://ssxiexiao.github.io/"
     [[Params.Members.Items]]
       Name = "Xiwen Cai"
       Photo = "images/people/caixiwen.jpg"
