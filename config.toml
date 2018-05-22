@@ -17,6 +17,10 @@ publishDir = "docs"
   [Params.Carousel]
     Height = 420
     [[Params.Carousel.Items]]
+      Title = "Di Weng presenting HomeFinder on ACM CHI 2018"
+      Description = "HomeFinder Revisited: Finding Ideal Homes with Reachability-Centric Multi-Criteria Decision Making"
+      Image = "/images/chi2018.jpg"
+    [[Params.Carousel.Items]]
       Title = "Our paper has been accepted by ACM CHI 2018!"
       Description = "HomeFinder Revisited: Finding Ideal Homes with Reachability-Centric Multi-Criteria Decision Making"
       Image = "/images/projects/reach.png"
@@ -214,10 +218,11 @@ publishDir = "docs"
       Photo = "images/people/xiexiao.jpg"
       Position = "Ph.D. Since 2015"
       URL = "http://ssxiexiao.github.io/"
-    [[Params.Members.Items]]
+    [[Params.Members.PastItems]]
       Name = "Xiwen Cai"
       Photo = "images/people/caixiwen.jpg"
       Position = "Master Since 2015"
+      Graduate = "Graduated at 2018"
       URL = "https://github.com/seevencai"
     [[Params.Members.Items]]
       Name = "Di Weng"
