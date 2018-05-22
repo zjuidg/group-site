@@ -24,7 +24,14 @@ publishDir = "docs"
       Title = "Our paper has been accepted by ACM CHI 2018!"
       Description = "HomeFinder Revisited: Finding Ideal Homes with Reachability-Centric Multi-Criteria Decision Making"
       Image = "/images/projects/reach.png"
-    
+    [[Params.Carousel.Items]]
+      Title = "Ji Lan presenting iTTVis on IEEE VIS 2017"
+      Description = "iTTVis: Interactive Visualization of Table Tennis Data"
+      Image = "/images/vis2017.jpg"
+    [[Params.Carousel.Items]]
+      Title = "Our paper has been accepted by IEEE InfoVis 2017!"
+      Description = "iTTVis: Interactive Visualization of Table Tennis Data"
+      Image = "/images/projects/ittvis.jpg"
 
   [Params.Demo]
     [[Params.Demo.Items]]
