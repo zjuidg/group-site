@@ -1,5 +1,5 @@
 # Page settings
-# BaseURL = "https://zjuvis.github.io/"
+BaseURL = "https://zjuvis.github.io/"
 Title = "ZJUVIS"
 LanguageCode = "en-us"
 theme = "zjuvis"
