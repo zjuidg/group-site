@@ -14,6 +14,8 @@ publishDir = "docs"
   Email = "zjuvis@gmail.com"
   Keywords = "ZJUVIS, visualization, visual analysis, academic, research, Zhejiang University"
 
+  StudentsTypes = ["Ph.D.", "Master", "Undergraduate"]
+  
   [Params.Carousel]
     Height = 420
     [[Params.Carousel.Items]]
@@ -230,10 +232,18 @@ publishDir = "docs"
       Summary = "Our new site has been deployed! Check at <a href=\"http://zjuvis.org/\">http://zjuvis.org/</a>."
 
   [Params.Members]
+    [[Params.Members.Faculty]]
+      Name = "Yingcai Wu"
+      Photo = "images/people/ycwu.jpg"
+      Position = "Assistant Professor"
+      Affiliation = "State Key Lab of CAD & CG, Zhejiang University"
+      URL = "http://www.ycwu.org/"
     [[Params.Members.Items]]
       Name = "Xiao Xie"
       Photo = "images/people/xiexiao.jpg"
       Position = "Ph.D. Since 2015"
+      Group = "Multimedia Vis"
+      Type = "Ph.D."
       URL = "http://ssxiexiao.github.io/"
     [[Params.Members.PastItems]]
       Name = "Xiwen Cai"
@@ -245,66 +255,92 @@ publishDir = "docs"
       Name = "Di Weng"
       Photo = "images/people/wengdi.jpg"
       Position = "Ph.D. Since 2016"
+      Group = "Urban Vis"
+      Type = "Ph.D."
       URL = "https://polymorphism.ac.cn"
     [[Params.Members.Items]]
       Name = "Ji Lan"
       Photo = "images/people/lanji.png"
       Position = "Ph.D. Since 2016"
+      Group = "Sports Vis"
+      Type = "Ph.D."
       URL = "https://lanjizju.github.io/"
     [[Params.Members.Items]]
       Name = "Tan Tang"
       Photo = "images/people/tangtan.jpg"
       Position = "Ph.D. Since 2016"
+      Group = "InfoVis"
+      Type = "Ph.D."
       URL = "http://www.tantang.org/"
     [[Params.Members.Items]]
       Name = "Sadia Rubab"
       Photo = "images/people/sadiarubab.png"
       Position = "Ph.D. Since 2017"
+      Group = "InfoVis"
+      Type = "Ph.D."
       URL = "https://www.researchgate.net/profile/Sadia_Rubab"
     [[Params.Members.Items]]
       Name = "Heming Zhu"
       Photo = "images/people/zhuheming.jpg"
       Position = "Master Since 2017"
+      Group = "AR Vis"
+      Type = "Master"
       URL = "http://wootwootwo.me/"
     [[Params.Members.Items]]
       Name = "Kaijuan Yuan"
       Photo = "images/people/yuankaijuan.jpg"
       Position = "Master Since 2017"
+      Group = "InfoVis"
+      Type = "Master"
       URL = "https://www.linkedin.com/in/kaijuan-yuan-362326b9/"
     [[Params.Members.Items]]
       Name = "Kejian Zhao"
       Photo = "images/people/zhaokejian.jpg"
       Position = "Master Since 2017"
+      Group = "Sports Vis"
+      Type = "Master"
       URL = "https://zhaokejian.github.io/about/"
     [[Params.Members.Items]]
       Name = "Dazhen Deng"
       Photo = "images/people/dengdazhen.jpg"
       Position = "Undergraduate"
+      Group = "Sports Vis"
+      Type = "Undergraduate"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Hongye Liang"
       Photo = "images/people/lianghongye.jpg"
       Position = "Undergraduate"
+      Group = "Sports Vis"
+      Type = "Undergraduate"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Jiachen Wang"
       Photo = "images/people/wangjiachen.jpg"
       Position = "Undergraduate"
+      Group = "Sports Vis"
+      Type = "Undergraduate"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Ran Chen"
       Photo = "images/people/chenran.png"
       Position = "Undergraduate"
+      Group = "Urban Vis"
+      Type = "Undergraduate"
       URL = "#"
     [[Params.Members.Items]]
       Name = "Yifang Wang"
       Photo = "images/people/wangyifang.jpg"
       Position = "Undergraduate"
+      Group = "AR Vis"
+      Type = "Undergraduate"
       URL = "http://wangyifang.top/about/"
     [[Params.Members.Items]]
       Name = "Zikun Deng"
       Photo = "images/people/dengzikun.jpg"
       Position = "Undergraduate"
+      Group = "Urban Vis"
+      Type = "Undergraduate"
       URL = "https://mrsoldiers.github.io/"
 
   [Params.IttvisTools]
