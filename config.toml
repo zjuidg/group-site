@@ -104,8 +104,9 @@ publishDir = "docs"
       Year = "2017"
       Title = "Examining the effects of network externalities, density, and closure on in-game currency price in online games"
       Journal = "Internet Research"
-      Image = "/images/projects/"
+      Image = "/images/projects/IntR.png"
       DOI = "10.1108/IntR-07-2016-0201"
+      Paper = "/files/IntR.pdf"
       Authors = ["Xuexin Xu", "Xiaodong Yang", "Junhua Lu", "Ji Lan*", "Tai-Quan Peng", "Yingcai Wu*", "Wei Chen"]
 
     [[Params.Publications.Items]]
@@ -142,7 +143,7 @@ publishDir = "docs"
       Year = "2016"
       Title = "Similarity Voting based Viewpoint Selection for Volumes"
       Journal = "Computer Graphics Forum (EuroVis 2016)"
-      Image = "/images/projects/"
+      Image = "/images/projects/similarity.jpeg"
       DOI = "10.1111/cgf.12915"
       Authors = ["Yubo Tao", "Qirui Wang", "Wei Chen", "Yingcai Wu*", "Hai Lin"]
 
@@ -219,6 +220,9 @@ publishDir = "docs"
       Date = "Feb 5th, 2018"
       Summary = "Our paper <b>A Semantic-based Method for Visualizing Large Image Collections</b> has been accepted by IEEE TVCG."
     [[Params.News.Items]]
+      Date = "Jan 17, 2018"
+      Summary = "Media coverage of our recent work <b>HomeFinder Revisited</b>: <a href=\"https://blog.csdn.net/Y2c8YpZC15p/article/details/79091908\">see more details.</a>"
+    [[Params.News.Items]]
       Date = "Dec 12, 2017"
       Summary = "Our paper <b>HomeFinder Revisited: Finding Ideal Homes with Reachability-centric Multi-Criteria Decision Making</b> has been conditionally accepted by ACM CHI 2018."
     [[Params.News.Items]]
@@ -235,21 +239,25 @@ publishDir = "docs"
     [[Params.Members.Faculty]]
       Name = "Yingcai Wu"
       Photo = "images/people/ycwu.jpg"
-      Position = "Assistant Professor"
-      Affiliation = "State Key Lab of CAD & CG, Zhejiang University"
+      Titles = [
+        "Head, ZJUVIS(VisGroup at Zhejiang University)",
+        "ZJU100 Young Professor, State Key Lab of CAD & CG",
+        "Assistant Dean, College of Computer Science and Technology, Zhejiang University, Hangzhou, Zhejiang, China"
+      ]
       URL = "http://www.ycwu.org/"
     [[Params.Members.Items]]
       Name = "Xiao Xie"
       Photo = "images/people/xiexiao.jpg"
       Position = "Ph.D. Since 2015"
-      Group = "Multimedia Vis"
+      Group = "Sports Vis"
       Type = "Ph.D."
       URL = "http://ssxiexiao.github.io/"
     [[Params.Members.PastItems]]
       Name = "Xiwen Cai"
       Photo = "images/people/caixiwen.jpg"
       Position = "Master Since 2015"
-      Graduate = "Graduated at 2018"
+      Graduate = "Graduated in 2018"
+      Type = "Master"
       URL = "https://github.com/seevencai"
     [[Params.Members.Items]]
       Name = "Di Weng"
@@ -342,6 +350,33 @@ publishDir = "docs"
       Group = "Urban Vis"
       Type = "Undergraduate"
       URL = "https://mrsoldiers.github.io/"
+    [[Params.Members.Items]]
+      Name = "Junxiu Tang"
+      Photo = "images/people/tangjunxiu.jpg"
+      Position = "Undergraduate"
+      Group = "InfoVis"
+      Type = "Undergraduate"
+      URL = "#"
+    [[Params.Members.Items]]
+      Name = "Jiang Wu"
+      Photo = "images/people/wujiang.jpeg"
+      Position = "Undergraduate"
+      Group = "Sports Vis"
+      Type = "Undergraduate"
+      URL = "#"
+    [[Params.Members.Items]]
+      Name = "Zhuohao Zhang"
+      Photo = "images/people/zhangzhuohao.jpg"
+      Position = "Undergraduate"
+      Group = "AR Vis"
+      Type = "Undergraduate"
+      URL = "http://zhuohaozhang.com/"
+    [[Params.Members.VisitingItems]]
+      Name = "Jiahui Chen"
+      Photo = "images/people/chenjiahui.jpeg"
+      Position = "Visiting Student Since 2015"
+      Group = "Urban Vis"
+      URL = "#"
 
   [Params.IttvisTools]
     [[Params.IttvisTools.Items]]
