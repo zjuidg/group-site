@@ -286,7 +286,7 @@ publishDir = "docs"
       Position = "Ph.D. Since 2017"
       Group = "InfoVis"
       Type = "Ph.D."
-      URL = "https://www.researchgate.net/profile/Sadia_Rubab"
+      URL = "https://sadiarubab.github.io/home/"
     [[Params.Members.Items]]
       Name = "Heming Zhu"
       Photo = "images/people/zhuheming.jpg"
