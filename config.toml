@@ -37,6 +37,14 @@ publishDir = "docs"
 
   [Params.Demo]
     [[Params.Demo.Items]]
+      Title = "ImageVis"
+      Description = "Coming soon!"
+      Image = "/images/projects/imagevis.jpg"
+      Source = "TVCG 2018"
+      Paper = "/files/imgvis.pdf"
+      Video = "/videos/imgvis.mp4"
+
+    [[Params.Demo.Items]]
       Title = "ReACH"
       Description = "Finding an ideal home is a difficult and laborious process. By characterizing user requirements and analytical tasks in the context of finding ideal homes, we designed ReACH, a novel visual analytics system that assists people in finding, evaluating, and choosing a home based on multiple criteria, including reachability."
       Image = "/images/projects/reach.png"
@@ -222,27 +230,16 @@ publishDir = "docs"
     [[Params.News.Items]]
       Date = "Jan 17, 2018"
       Summary = "Media coverage of our recent work <b>HomeFinder Revisited</b>: <a href=\"https://blog.csdn.net/Y2c8YpZC15p/article/details/79091908\">see more details.</a>"
-    [[Params.News.Items]]
-      Date = "Dec 12, 2017"
-      Summary = "Our paper <b>HomeFinder Revisited: Finding Ideal Homes with Reachability-centric Multi-Criteria Decision Making</b> has been conditionally accepted by ACM CHI 2018."
-    [[Params.News.Items]]
-      Date = "Nov 24, 2017"
-      Summary = "Ji Lan, one of our Ph.D. students, has received National Scholarship. Congratulations!"
-    [[Params.News.Items]]
-      Date = "Nov 24, 2017"
-      Summary = "Junpei Zhou, one of our undergraduate students, has been awarded Chu Kochen Scholarship. This is the second Chu Kochen Scholarship awarded to our undergraduate group members in two consecutive years, congratulations!"
-    [[Params.News.Items]]
-      Date = "Oct 17, 2017"
-      Summary = "Our new site has been deployed! Check at <a href=\"http://zjuvis.org/\">http://zjuvis.org/</a>."
 
   [Params.Members]
     [[Params.Members.Faculty]]
       Name = "Yingcai Wu"
       Photo = "images/people/ycwu.jpg"
       Titles = [
-        "Head, ZJUVIS(VisGroup at Zhejiang University)",
-        "ZJU100 Young Professor, State Key Lab of CAD & CG",
-        "Assistant Dean, College of Computer Science and Technology, Zhejiang University, Hangzhou, Zhejiang, China"
+        "<b>Head</b>, ZJUVIS (VisGroup at Zhejiang University)",
+        "<b>ZJU100 Young Professor</b>, State Key Lab of CAD & CG",
+        "<b>Assistant Dean</b>, College of Computer Science and Technology", 
+        "Zhejiang University, Hangzhou, Zhejiang, China"
       ]
       URL = "http://www.ycwu.org/"
     [[Params.Members.Items]]
@@ -335,7 +332,7 @@ publishDir = "docs"
       Position = "Undergraduate"
       Group = "Urban Vis"
       Type = "Undergraduate"
-      URL = "#"
+      URL = "https://crcrcry.github.io/about"
     [[Params.Members.Items]]
       Name = "Yifang Wang"
       Photo = "images/people/wangyifang.jpg"
@@ -376,7 +373,7 @@ publishDir = "docs"
       Photo = "images/people/chenjiahui.jpeg"
       Position = "Visiting Student Since 2015"
       Group = "Urban Vis"
-      URL = "#"
+      URL = "https://jhchen6.github.io"
 
   [Params.IttvisTools]
     [[Params.IttvisTools.Items]]
