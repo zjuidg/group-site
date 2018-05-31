@@ -38,7 +38,7 @@ publishDir = "docs"
   [Params.Demo]
     [[Params.Demo.Items]]
       Title = "ImageVis"
-      Description = "Coming soon!"
+      Description = "Interactive visualization of large image collections is important and useful. We propose a novel co-embedding model to project images and the associated semantic keywords to the same 2D space. Our system naturally supports multi-scale visualization, navigation, and iterative refinements of the co-embedding layout."
       Image = "/images/projects/imagevis.jpg"
       Source = "TVCG 2018"
       Paper = "/files/imgvis.pdf"
