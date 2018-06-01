@@ -93,6 +93,14 @@ publishDir = "docs"
 
     [[Params.Publications.Items]]
       Year = "2017"
+      Title = "SocialWave: Visual Analysis of Spatio-temporal Di usion of Information on Social Media"
+      Journal = "ACM Transactions on Intelligent Systems and Technology"
+      Image = "/images/projects/socialwave.png"
+      Paper = "/files/socialwave.pdf"
+      Authors = ["Guodao Sun", "Tan Tang*", "Tai-Quan Peng", "Ronghua Liang", "Yingcai Wu*"]
+
+    [[Params.Publications.Items]]
+      Year = "2017"
       Title = "Exploring the design space of immersive urban analytics"
       Journal = "Visual Informatics"
       Image = "/images/projects/arvis.png"
