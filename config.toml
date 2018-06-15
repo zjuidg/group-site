@@ -305,7 +305,7 @@ publishDir = "docs"
       Position = "Master Since 2017"
       Group = "InfoVis"
       Type = "Master"
-      URL = "https://www.linkedin.com/in/kaijuan-yuan-362326b9/"
+      URL = "https://kaijuanyuan.github.io/"
     [[Params.Members.Items]]
       Name = "Kejian Zhao"
       Photo = "images/people/zhaokejian.jpg"
