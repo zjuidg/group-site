@@ -326,7 +326,7 @@ publishDir = "docs"
       Position = "Undergraduate"
       Group = "Sports Vis"
       Type = "Undergraduate"
-      URL = "#"
+      URL = "http://www.redleafliang.com/"
     [[Params.Members.Items]]
       Name = "Jiachen Wang"
       Photo = "images/people/wangjiachen.jpg"
