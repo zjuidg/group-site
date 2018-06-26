@@ -333,7 +333,7 @@ publishDir = "docs"
       Position = "Undergraduate"
       Group = "Sports Vis"
       Type = "Undergraduate"
-      URL = "#"
+      URL = "http://www.wjc-vis.com/"
     [[Params.Members.Items]]
       Name = "Ran Chen"
       Photo = "images/people/chenran.png"
