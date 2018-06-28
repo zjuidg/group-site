@@ -319,7 +319,7 @@ publishDir = "docs"
       Position = "Undergraduate"
       Group = "Sports Vis"
       Type = "Undergraduate"
-      URL = "#"
+      URL = "https://dengdakzen.github.io/Introduction/"
     [[Params.Members.Items]]
       Name = "Hongye Liang"
       Photo = "images/people/lianghongye.jpg"
