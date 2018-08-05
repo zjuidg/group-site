@@ -354,7 +354,7 @@ publishDir = "docs"
       Position = "Undergraduate"
       Group = "Urban Vis"
       Type = "Undergraduate"
-      URL = "https://mrsoldiers.github.io/"
+      URL = "http://zikun-deng.ac.cn/"
     [[Params.Members.Items]]
       Name = "Junxiu Tang"
       Photo = "images/people/tangjunxiu.jpg"
