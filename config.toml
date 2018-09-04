@@ -19,23 +19,43 @@ publishDir = "docs"
   [Params.Carousel]
     Height = 420
     [[Params.Carousel.Items]]
-      Title = "Di Weng presenting HomeFinder on ACM CHI 2018"
-      Description = "HomeFinder Revisited: Finding Ideal Homes with Reachability-Centric Multi-Criteria Decision Making"
-      Image = "/images/chi2018.jpg"
+      Title = "Our paper has been accepted by IEEE VAST 2018!"
+      Description = "ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer"
+      Image = "/images/projects/forvizor.png"
     [[Params.Carousel.Items]]
-      Title = "Our paper has been accepted by ACM CHI 2018!"
-      Description = "HomeFinder Revisited: Finding Ideal Homes with Reachability-Centric Multi-Criteria Decision Making"
-      Image = "/images/projects/reach.png"
+      Title = "Our paper has been accepted by IEEE InfoVis 2018!"
+      Description = "SRVis: Towards Better Spatial Integration in Ranking Visualization"
+      Image = "/images/projects/srvis.png"
     [[Params.Carousel.Items]]
-      Title = "Ji Lan presenting iTTVis on IEEE VIS 2017"
-      Description = "iTTVis: Interactive Visualization of Table Tennis Data"
-      Image = "/images/vis2017.jpg"
-    [[Params.Carousel.Items]]
-      Title = "Our paper has been accepted by IEEE InfoVis 2017!"
-      Description = "iTTVis: Interactive Visualization of Table Tennis Data"
-      Image = "/images/projects/ittvis.jpg"
+      Title = "Our paper has been accepted by IEEE InfoVis 2018!"
+      Description = "iStoryline: Effective Convergence to Hand-drawn Storylines"
+      Image = "/images/projects/istoryline.png"
 
   [Params.Demo]
+    [[Params.Demo.Items]]
+      Title = "ForVizor"
+      Description = "In this study, we design a novel spatio-temporal visual representation of changes in team formation, allowing analysts to visually analyze the evolution of formations and track the spatial flow of players within formations over time. Based on the new design, we fur-ther design and develop ForVizor, a visual analytics system, which empowers users to track the spatio-temporal changes in forma-tion and understand how and why such changes occur. "
+      Image = "/images/projects/forvizor.png"
+      Source = "VAST 2018"
+      Paper = "/files/forvizor.pdf"
+      Video = "/videos/forvizor.mp4"
+
+    [[Params.Demo.Items]]
+      Title = "SRVis"
+      Description = "Interactive ranking techniques have substant-ially promoted analysts’ ability in making judi-cious and informed decisions effectively based on multiple criteria. Based on a set of generic design requirements we summarized by coll-aborating with domain experts, we propose SRVis, a novel spatial ranking visualization technique that supports efficient spatial multi-criteria decision-making processes."
+      Image = "/images/projects/srvis.png"
+      Source = "InfoVis 2018"
+      Paper = "/files/srvis.pdf"
+      Video = "/videos/srvis.mp4"
+
+    [[Params.Demo.Items]]
+      Title = "iStoryline"
+      Description = "The storyline visualization is widely used in presenting the evolution of complex relationships between entities, such as the interactions among characters in movies. We propose a novel authoring tool called iStoryline to incorporate human knowledge into the storyline layouts and help designers craft storyline visualizations efficiently."
+      Image = "/images/projects/istoryline.png"
+      Source = "InfoVis 2018"
+      Paper = "/files/istoryline.pdf"
+      Video = "/videos/istoryline.mp4"
+    
     [[Params.Demo.Items]]
       Title = "ImageVis"
       Description = "Interactive visualization of large image collections is important and useful. We propose a novel co-embedding model to project images and the associated semantic keywords to the same 2D space. Our system naturally supports multi-scale visualization, navigation, and iterative refinements of the co-embedding layout."
@@ -63,6 +83,33 @@ publishDir = "docs"
       Page = '/ittvis_framework'
 
   [Params.Publications]
+    [[Params.Publications.Items]]
+      Year = "2018"
+      Title = "ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2018)"
+      Image = "/images/projects/forvizor.png"
+      Paper = "/files/forvizor.pdf"
+      Video = "/videos/forvizor.mp4"
+      Authors = ["Yingcai Wu*", "Xiao Xie*", "Jiachen Wang*", "Dazhen Deng*", "Hongye Liang*", "Hui Zhang", "Shoubin Cheng", "Wei Chen"]
+
+    [[Params.Publications.Items]]
+      Year = "2018"
+      Title = "SRVis: Towards Better Spatial Integration in Ranking Visualization"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2018)"
+      Image = "/images/projects/srvis.png"
+      Paper = "/files/srvis.pdf"
+      Video = "/videos/srvis.mp4"
+      Authors = ["Di Weng*", "Ran Chen*", "Zikun Deng*", "Feiran Wu", "Jingmin Chen", "Yingcai Wu*"]
+
+    [[Params.Publications.Items]]
+      Year = "2018"
+      Title = "iStoryline: Effective Convergence to Hand-drawn Storylines"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2018)"
+      Image = "/images/projects/istoryline.png"
+      Paper = "/files/istoryline.pdf"
+      Video = "/videos/istoryline.mp4"
+      Authors = ["Tan Tang*", "Sadia Rubab*", "Jiewen Lai*", "Weiwei Cui", "Lingyun Yu", "Yingcai Wu*"]
+    
     [[Params.Publications.Items]]
       Year = "2018"
       Title = "A Semantic-based Method for Visualizing Large Image Collections"
@@ -230,12 +277,27 @@ publishDir = "docs"
 
   [Params.News]
     [[Params.News.Items]]
+      Show = true
       Date = "Sep 1, 2017 - Pinned"
       Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"/contact/\">contact us</a>."
     [[Params.News.Items]]
+      Show = true
+      Date = "Sept 3rd, 2018"
+      Summary = "Our paper <b>ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer</b> has been accepted by IEEE VAST 2018."
+    [[Params.News.Items]]
+      Show = true
+      Date = "Sept 3rd, 2018"
+      Summary = "Our paper <b>SRVis: Towards Better Spatial Integration in Ranking Visualization</b> has been accepted by IEEE InfoVis 2018."
+    [[Params.News.Items]]
+      Show = true
+      Date = "Sept 3rd, 2018"
+      Summary = "Our paper <b>iStoryline: Effective Convergence to Hand-drawn Storylines</b> has been accepted by IEEE InfoVis 2018."
+    [[Params.News.Items]]
+      Show = false
       Date = "Feb 5th, 2018"
       Summary = "Our paper <b>A Semantic-based Method for Visualizing Large Image Collections</b> has been accepted by IEEE TVCG."
     [[Params.News.Items]]
+      Show = false
       Date = "Jan 17, 2018"
       Summary = "Media coverage of our recent work <b>HomeFinder Revisited</b>: <a href=\"https://blog.csdn.net/Y2c8YpZC15p/article/details/79091908\">see more details.</a>"
 
@@ -270,7 +332,7 @@ publishDir = "docs"
       Position = "Ph.D. Since 2016"
       Group = "Urban Vis"
       Type = "Ph.D."
-      URL = "https://polymorphism.ac.cn"
+      URL = "https://dweng.org/"
     [[Params.Members.Items]]
       Name = "Ji Lan"
       Photo = "images/people/lanji.png"
@@ -316,44 +378,45 @@ publishDir = "docs"
     [[Params.Members.Items]]
       Name = "Dazhen Deng"
       Photo = "images/people/dengdazhen.jpg"
-      Position = "Undergraduate"
+      Position = "Ph.D. Since 2018"
       Group = "Sports Vis"
-      Type = "Undergraduate"
+      Type = "Ph.D."
       URL = "https://dengdakzen.github.io/Introduction/"
     [[Params.Members.Items]]
       Name = "Hongye Liang"
       Photo = "images/people/lianghongye.jpg"
-      Position = "Undergraduate"
+      Position = "Master Since 2018"
       Group = "Sports Vis"
-      Type = "Undergraduate"
+      Type = "Master"
       URL = "http://www.redleafliang.com/"
     [[Params.Members.Items]]
       Name = "Jiachen Wang"
       Photo = "images/people/wangjiachen.jpg"
-      Position = "Undergraduate"
+      Position = "Ph.D. Since 2018"
       Group = "Sports Vis"
-      Type = "Undergraduate"
+      Type = "Ph.D."
       URL = "http://www.wjc-vis.com/"
     [[Params.Members.Items]]
       Name = "Ran Chen"
       Photo = "images/people/chenran.png"
-      Position = "Undergraduate"
+      Position = "Master Since 2018"
       Group = "Urban Vis"
-      Type = "Undergraduate"
-      URL = "https://crcrcry.github.io/about"
-    [[Params.Members.Items]]
+      Type = "Master"
+      URL = "https://crcrcry.netlify.com/"
+    [[Params.Members.PastItems]]
       Name = "Yifang Wang"
       Photo = "images/people/wangyifang.jpg"
-      Position = "Undergraduate"
+      Position = "Undergraduate Since 2016"
+      Graduate = "Graduated in 2018"
       Group = "AR Vis"
       Type = "Undergraduate"
       URL = "http://wangyifang.top/about/"
     [[Params.Members.Items]]
       Name = "Zikun Deng"
       Photo = "images/people/dengzikun.jpg"
-      Position = "Undergraduate"
+      Position = "Ph.D. Since 2018"
       Group = "Urban Vis"
-      Type = "Undergraduate"
+      Type = "Ph.D."
       URL = "http://zikun-deng.ac.cn/"
     [[Params.Members.Items]]
       Name = "Junxiu Tang"
@@ -376,10 +439,17 @@ publishDir = "docs"
       Group = "AR Vis"
       Type = "Undergraduate"
       URL = "http://zhuohaozhang.com/"
+    [[Params.Members.Items]]
+      Name = "Renzhong Li"
+      Photo = "images/people/lirenzhong.jpg"
+      Position = "Undergraduate"
+      Group = ""
+      Type = "Undergraduate"
+      URL = "https://evenlasting.github.io/"
     [[Params.Members.VisitingItems]]
       Name = "Jiahui Chen"
       Photo = "images/people/chenjiahui.jpeg"
-      Position = "Visiting Student Since 2015"
+      Position = "Visiting Student"
       Group = "Urban Vis"
       URL = "https://jhchen6.github.io"
 
