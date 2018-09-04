@@ -1,0 +1,57 @@
+<div class="section right ittvis-team">
+  <h1>Team</h1>
+  <h2>Team Members</h2>
+  <div class="gallery">
+    {{ $siteUrl := .Site.BaseURL }}
+    {{ range .Site.Params.IttvisFrameworkCoreTeam.Items }}
+    <div class="member-card">
+      <div class="container">
+        <div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+            <a href="{{ .URL }}"></a>
+        </div>
+        <div class="desc">
+            <div class="name">{{ .Name }}</div>
+            <div class="position">{{ .Position }}</div>
+            <div class="position">{{ .College }}</div>
+            <div class="position">{{ .School }}</div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    {{ range .Site.Params.IttvisCollaborator.Items }}
+    <div class="member-card">
+        <div class="container">
+          <div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+              <a href="{{ .URL }}"></a>
+          </div>
+          <div class="desc">
+              <div class="name">{{ .Name }}</div>
+              <div class="position">{{ .Position }}</div>
+              <div class="position">{{ .College }}</div>
+              <div class="position">{{ .School }}</div>
+          </div>
+        </div>
+        <div class="tabletennispos">{{ .TabletennisPos }}</div>
+    </div>
+    {{ end }}
+  </div>
+  <h2>Past Members</h2>
+  <div class="gallery">
+    {{ $siteUrl := .Site.BaseURL }}
+    {{ range .Site.Params.IttvisFrameworkPastTeam.Items }}
+    <div class="member-card">
+      <div class="container">
+        <div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+            <a href="{{ .URL }}"></a>
+        </div>
+        <div class="desc">
+            <div class="name">{{ .Name }}</div>
+            <div class="position">{{ .Position }}</div>
+            <div class="position">{{ .College }}</div>
+            <div class="position">{{ .School }}</div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

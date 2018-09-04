@@ -1,0 +1,28 @@
+<!-- top navbar -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <!-- brand icon -->
+    <a class="navbar-brand" href="#">
+        <img src="{{ .Site.BaseURL }}images/logo.png"
+            class="d-inline-block align-top" width="30" height="30" alt="">
+        {{ .Site.Params.GroupName }}
+    </a>
+
+    <!-- navs -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link {{ if .IsHome }}active{{ end }}" href="{{ .Site.BaseURL }}">Home</a>
+            <a class="nav-item nav-link {{ if eq .Title "People" }}active{{ end }}" href="{{ .Site.BaseURL }}people/">People</a>
+            <a class="nav-item nav-link {{ if eq .Title "Publications" }}active{{ end }}" href="{{ .Site.BaseURL }}publications/">Publications</a>
+            <a class="nav-item nav-link {{ if eq .Title "Contact" }}active{{ end }}" href="{{ .Site.BaseURL }}contact/">Contact</a>
+        </div>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>

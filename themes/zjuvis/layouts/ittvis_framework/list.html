@@ -1,0 +1,61 @@
+{{ define "main" }}
+<div class="ittvis-framework">
+  <div class="title">{{ .Title }}</div>
+  <div class="row">
+    <div class="col-sm-8 content">
+      <div class="section">
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="col-sm content">
+      <div class="section instruction">
+        <h1>Project webpages</h1>
+        {{ range .Site.Params.IttvisProjects.Items }}
+        <p class="link">
+          <a href="{{ .URL }}">
+            <i class="fa fa-cube" aria-hidden="true"></i>
+            <span>{{ .Name }}</span>
+          </a>
+        </p>
+        {{ end }}
+      </div>
+      <div class="section tools">
+        <h1>Demos</h1>
+        {{ range .Site.Params.IttvisTools.Items }}
+        <p class="link">
+          <a href="{{ .URL }}">
+            <i class="fa fa-wrench" aria-hidden="true"></i>
+            <span>{{ .Name }}</span>
+          </a>
+        </p>
+        {{ end }}
+      </div>
+      {{ partial "ittvis_team.html" . }}
+    </div>
+  </div>
+  <div class="statcounter-row">
+    <i class="fa fa-eye"></i>
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+    var sc_project = 11632040;
+    var sc_invisible = 0;
+    var sc_security = "82208777";
+    var scJsHost = (("https:" == document.location.protocol) ?
+    "https://secure." : "http://www.");
+    document.write("<sc"+"ript type='text/javascript' src='" +
+    scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript>
+      <div class="statcounter">
+        <a title="web stats"
+          href="http://statcounter.com/" target="_blank"><img
+          class="statcounter"
+          src="//c.statcounter.com/11632040/0/82208777/0/" alt="webstats">
+        </a>
+      </div>
+    </noscript>
+    <!-- End of StatCounter Code for Default Guide -->
+  </div>
+</div>
+{{ end }}

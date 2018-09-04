@@ -1,0 +1,52 @@
+<div class="section left publications">
+    <div class="title"><i class="fa fa-newspaper-o" aria-hidden="true"></i> PUBLICATIONS</div>
+    <div class="content">
+        <ul>
+            <li style="font-size: 12px; color: #999">Authors marked with * are affiliated with our group.</li>
+            {{ range .Site.Params.Publications.Items }}
+            <li>
+                <div class="pubyear">
+                    {{ if ne .Year ($.Scratch.Get "lastYear") }}
+                        {{ .Year }}
+                        {{ $.Scratch.Set "lastYear" .Year }}
+                    {{ end }}
+                </div>
+                <div class="pubtitle" title="{{ .Title }}"><b>{{ .Title }}</b></div>
+                <div class="pubauthor">
+                    {{ range .Authors }}
+                    <span>{{ . | safeHTML }}</span>
+                    {{ end }}
+                </div>
+                <div class="pubjournal">{{ .Journal }}</div>
+                <div class="pubsupp">
+                    {{ if isset . "Paper" }}
+                    <a href="{{ .Paper }}">
+                        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                        Paper
+                    </a>
+                    {{ end }}
+                    {{ if isset . "Video" }}
+                    <a href="{{ .Video }}">
+                        <i class="fa fa-file-video-o" aria-hidden="true"></i>
+                        Video
+                    </a>
+                    {{ end }}
+                    {{ if isset . "Demo" }}
+                    <a href="{{ .Demo }}">
+                        <i class="fa fa-cube" aria-hidden="true"></i>
+                        Demo
+                    </a>
+                    {{ end }}
+                    {{ if isset . "DOI" }}
+                    <a href="https://dx.doi.org/{{ .DOI }}">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                        Online
+                    </a>
+                    {{ end }}
+                </div>
+            </li>
+            {{ end }}
+        </ul>
+        <a href="{{ .Site.BaseURL }}publications/" class="more">More publications with images...</a>
+    </div>
+</div>

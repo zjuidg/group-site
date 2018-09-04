@@ -1,0 +1,101 @@
+{{ define "main" }}
+<div class="ittvis-framework">
+  <div class="title">{{ .Title }}</div>
+  <div class="row">
+    <div class="col-sm-8 content">
+      <div class="section">
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="col-sm content">
+      {{ if isset .Params "demo" }}
+      <div class="section demo">
+        <h1>Demo</h1>
+        <p class="link">
+          <a href="{{ .Params.demo }}">
+            <i class="fa fa-cube" aria-hidden="true"></i>
+            <span>{{ .Params.demo_name }}</span>
+          </a>
+        </p>
+      </div>
+      {{ end }}
+
+      {{ if isset .Params "video" }}
+      <div class="section video">
+        <h1>Video</h1>
+        <video src="{{ .Params.video }}" controls="controls" width="100%"></video>
+      </div>
+      {{ end }}
+
+      {{ if isset .Params "publication"}}
+      <div class="section publication">
+        <h1>Publication</h1>
+        <p class="link">
+          <a href="{{ .Params.publication }}">
+            <i class="fa fa-book" aria-hidden="true"></i>
+            <span>{{ .Params.publication_name }}</span>
+          </a>
+        </p>
+      </div>
+      {{ end }}
+
+      <div class="section right ittvis-team">
+        <h1>Team</h1>
+        <div class="gallery">
+          {{ $siteUrl := .Site.BaseURL }}
+          {{ if eq .Params.demo_name "iTTVis"}}
+          {{ range .Site.Params.IttvisCoreTeam.Items }}
+            <div class="member-card">
+              <div class="container">
+                <div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+                    <a href="{{ .URL }}"></a>
+                </div>
+                <div class="desc">
+                    <div class="name">{{ .Name }}</div>
+                    <div class="position">{{ .Position }}</div>
+                    <div class="position">{{ .College }}</div>
+                    <div class="position">{{ .School }}</div>
+                </div>
+              </div>
+            </div>
+          {{ end }}
+          {{ else }}
+          {{ range .Site.Params.IssvisCoreTeam.Items }}
+            <div class="member-card">
+              <div class="container">
+                <div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+                    <a href="{{ .URL }}"></a>
+                </div>
+                <div class="desc">
+                    <div class="name">{{ .Name }}</div>
+                    <div class="position">{{ .Position }}</div>
+                    <div class="position">{{ .College }}</div>
+                    <div class="position">{{ .School }}</div>
+                </div>
+              </div>
+            </div>
+          {{ end }}
+          {{ end }}
+
+          {{ range .Site.Params.IttvisCollaborator.Items }}
+          <div class="member-card">
+            <div class="container">
+              <div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+                  <a href="{{ .URL }}"></a>
+              </div>
+              <div class="desc">
+                  <div class="name">{{ .Name }}</div>
+                  <div class="position">{{ .Position }}</div>
+                  <div class="position">{{ .College }}</div>
+                  <div class="position">{{ .School }}</div>
+              </div>
+            </div>
+            <div class="tabletennispos">{{ .TabletennisPos }}</div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

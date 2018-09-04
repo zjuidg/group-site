@@ -1,0 +1,35 @@
+<!-- metas -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-language" content="{{ .Site.LanguageCode }}" />
+<meta name="author" content="{{ .Site.Params.Author }}">
+<meta name="description" content="{{ .Site.Params.Description }}" />
+<meta name="keywords" content="{{ .Site.Params.Keywords }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Facebook & Twitter -->
+<meta name="og:site_name" content="{{ .Site.Title }}">
+<meta name="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="og:url" content="{{ .Permalink }}">
+<meta name="og:image" content="{{ .Site.BaseURL }}images/logo.png">
+<meta name="twitter:title" content="{{ .Site.Title }}" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+<meta name="twitter:image" content="{{ .Site.BaseURL }}images/logo.png" />
+<meta name="twitter:card" content="" />
+
+<!-- title -->
+<title>{{ .Site.Title }}</title>
+
+<!-- permalink & favicon -->
+<link rel="canonical" href="{{ .Permalink }}"/>
+<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/logo.png">
+
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+<!-- libraries -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- styles -->
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">

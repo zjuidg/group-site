@@ -1,0 +1,47 @@
+<div class="section right members">
+    <div class="title">CURRENT MEMBERS</div>
+    <div class="content clearfix">
+        <div class="alert alert-success" role="alert">
+            We are recruiting new PhD and master stu&shy;dents! Check <a href="/contact/">here</a> for more details.
+        </div>
+        <div class="member-card professor clearfix">
+            <div class="photo" style="background: url({{ .Site.BaseURL }}images/people/ycwu.jpg">
+                <a href="http://www.ycwu.org/"></a>
+            </div>
+            <div class="desc">
+                <div class="name">Yingcai Wu</div>
+                <div class="position">Assistant Professor</div>
+                <div class="affiliation">State Key Lab of CAD & CG, Zhejiang University</div>
+            </div>
+        </div>
+        <div class="separator"></div>
+        {{ $siteUrl := .Site.BaseURL }}
+        {{ range .Site.Params.Members.Items }}
+        <div class="member-card">
+            <div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+                <a href="{{ .URL }}"></a>
+            </div>
+            <div class="desc">
+                <div class="name">{{ .Name }}</div>
+                <div class="position">{{ .Position }}</div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    
+    <div class="title">PAST MEMBERS</div>
+    <div class="content clearfix">
+        {{ $siteUrl := .Site.BaseURL }}
+        {{ range .Site.Params.Members.PastItems }}
+        <div class="member-card">
+            <div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+                <a href="{{ .URL }}"></a>
+            </div>
+            <div class="desc">
+                <div class="name">{{ .Name }}</div>
+                <div class="position">{{ .Graduate }}</div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>

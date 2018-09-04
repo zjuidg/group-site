@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="publications-page">
+    <div class="content">
+        <h3 class="title">Selected Publications</h3>
+        <div style="font-size: 14px; color: #999; padding: 10px 20px;">Authors marked with * are affiliated with our group.</div>
+        <ul>
+            {{ range .Site.Params.Publications.Items }}
+            <!-- 发表时间 -->
+            <div class="pubyear">
+                {{ if ne .Year ($.Scratch.Get "lastYear") }}
+                    {{ .Year }}
+                    {{ $.Scratch.Set "lastYear" .Year }}
+                {{ end }}
+            </div>
+            <!-- 论文信息 -->
+            <li class="clearfix">
+                <div class="pubimg" style="background: url({{ .Site.BaseURL }}{{ .Image }}"></div>
+                <div class="pubtitle" title="{{ .Title }}"><b>{{ .Title }}</b></div>
+                <div class="pubauthor">
+                    {{ range .Authors }}
+                    <span>{{ . | safeHTML }}</span>
+                    {{ end }}
+                </div>
+                <div class="pubjournal">{{ .Journal }}</div>
+                <div class="pubsupp">
+                    {{ if isset . "Paper" }}
+                    <a href="{{ .Paper }}">
+                        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                        Paper
+                    </a>
+                    {{ end }}
+                    {{ if isset . "Video" }}
+                    <a href="{{ .Video }}">
+                        <i class="fa fa-file-video-o" aria-hidden="true"></i>
+                        Video
+                    </a>
+                    {{ end }}
+                    {{ if isset . "Demo" }}
+                    <a href="{{ .Demo }}">
+                        <i class="fa fa-cube" aria-hidden="true"></i>
+                        Demo
+                    </a>
+                    {{ end }}
+                    {{ if isset . "DOI" }}
+                    <a href="https://dx.doi.org/{{ .DOI }}">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                        Online
+                    </a>
+                    {{ end }}
+                </div>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+
+{{ end }}

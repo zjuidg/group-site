@@ -1,0 +1,76 @@
+{{ define "main" }}
+<div class="people-page">
+    <div class="content clearfix">
+		{{ $siteUrl := .Site.BaseURL }}
+
+		<!-- Faculty -->
+		<div class="title">Faculty</div>
+		{{ range .Site.Params.Members.Faculty }}
+		<div class="member-card professor clearfix">
+			<div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }})">
+				<a href="{{ .URL }}"></a>
+			</div>
+			<div class="desc">
+				<div class="name">{{ .Name }}</div>
+				{{ range .Titles }}
+				<div class="position">{{ .  | safeHTML }}</div>
+				{{ end }}
+				<!-- <div class="affiliation">{{ .Affiliation }}</div> -->
+			</div>
+		</div>
+		{{ end }}
+
+		<!-- Current Students -->
+		<!-- range 会切换 context -->
+		{{ range $type := .Site.Params.StudentsTypes }}
+		<div class="clearfix">
+			<div class="title">{{ $type }} Students</div>
+			{{ range where $.Site.Params.Members.Items "Type" $type }}
+			<div class="member-card">
+				<div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+					<a href="{{ .URL }}"></a>
+				</div>
+				<div class="desc">
+					<div class="name">{{ .Name }}</div>
+					<div class="position">{{ .Group }}</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+		{{ end }}
+
+		<!-- Visiting Students -->
+		<!-- <div class="clearfix">
+			<div class="title">Visiting Students</div>
+			{{ range .Site.Params.Members.VisitingItems }}
+			<div class="member-card clearfix">
+					<div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+						<a href="{{ .URL }}"></a>
+					</div>
+					<div class="desc">
+						<div class="name">{{ .Name }}</div>
+						<div class="position">{{ .Group }}</div>
+					</div>
+				</div>
+			{{ end }}
+		</div> -->
+		
+		<!-- Past Students -->
+		<div class="clearfix">
+			<div class="title">Past Members</div>
+			{{ range .Site.Params.Members.PastItems }}
+			<div class="member-card clearfix">
+					<div class="photo" style="background: url({{ $siteUrl }}{{ .Photo }}">
+						<a href="{{ .URL }}"></a>
+					</div>
+					<div class="desc">
+						<div class="name">{{ .Name }}</div>
+						<div class="position">{{ .Type }} Student</div>
+						<div class="position">{{ .Graduate }}</div>
+					</div>
+				</div>
+			{{ end }}
+		</div>
+    </div>
+</div>
+{{ end }}

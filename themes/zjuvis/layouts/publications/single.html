@@ -1,0 +1,78 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-sm-8 col-left publication-content-main">
+      <div class="title">{{ .Title }}</div>
+      <div class="content">
+        {{ .Content }}
+      </div>
+      <div class="statcounter-row">
+        <i class="fa fa-eye"></i>
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+        var sc_project={{ .Params.sc_project }};
+        var sc_invisible=0;
+        var sc_security={{ .Params.sc_security }};
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+        document.write("<sc"+"ript type='text/javascript' src='" +
+        scJsHost+
+        "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+        <noscript>
+          <div class="statcounter">
+            <a title="web stats"
+              href="http://statcounter.com/" target="_blank"><img
+              class="statcounter"
+              src="//c.statcounter.com/{{ .Params.sc_project }}/0/{{ .Params.sc_security }}/0/" alt="webstats">
+            </a>
+          </div>
+        </noscript>
+        <!-- End of StatCounter Code for Default Guide -->
+      </div>
+    </div>
+    <div class="col-sm col-right publication-content-aside">
+      {{ if isset .Params "image"}}
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" width="100%">
+      {{ end }}
+
+      <ul class="list">
+        {{ if isset .Params "demo"}}
+        <li>
+          <div class="title">Project Demo</div>
+          <div class="content">
+            <a href="{{ .Params.demo }}">
+                <i class="fa fa-cube" aria-hidden="true"></i>
+                <span>{{ .Params.shortname }} Demo</span>
+            </a>
+          </div>
+        </li>
+        {{ end }}
+
+        <li>
+          <div class="title">Resources</div>
+          <div class="content">
+            {{ if isset .Params "paper" }}
+            <a href="{{ .Params.paper }}">
+                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                <span>Paper(PDF)</span>
+            </a>
+            {{ end }}
+            {{ if isset .Params "doi" }}
+            <a href="https://dx.doi.org/{{ .Params.doi }}">
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+                <span>DOI Online</span>
+            </a>
+            {{ end }}
+          </div>
+        </li>
+
+        {{ if isset .Params "video"}}
+        <li>
+          <div class="title">Video</div>
+          <video src="{{ .Params.video }}" controls="controls" width="100%"></video>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+</div>
+{{ end }}

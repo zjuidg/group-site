@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    {{ partial "navbar.html" . }}
+    <div class="container content">
+        {{ partial "photos.html" . }}
+        <div class="row">
+            <div class="col-sm-8 col-left">
+                {{ partial "news.html" . }}
+            </div>
+            <div class="col-sm col-right">
+                {{ partial "about.html" . }}
+            </div>
+        </div>
+        <div class="row">
+            {{ partial "demo.html" . }}
+        </div>
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
+</body>
+</html>
