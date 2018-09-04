@@ -1,0 +1,22 @@
+before_script:
+- wget $HUGO_URL -o hugo.deb
+- sudo dpkg -i hugo.deb
+
+script:
+- hugo
+
+branches:
+  only:
+  - master
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: docs
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  repo: zjuvis/zjuvis.github.io
+  target_branch: master
+  fqdn: zjuvis.org
+

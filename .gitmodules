@@ -1,6 +1,3 @@
-[submodule "docs"]
-	path = docs
-	url = https://github.com/zjuvis/zjuvis.github.io.git
 [submodule "themes/zjuvis"]
 	path = themes/zjuvis
 	url = https://github.com/zjuvis/site-theme.git
