@@ -46,6 +46,7 @@ publishDir = "docs"
       Image = "/images/projects/srvis.png"
       Source = "InfoVis 2018"
       Paper = "/files/srvis.pdf"
+      Demo = "/srvis"
       Video = "https://www.youtube.com/watch?v=lenSZci4gy4"
 
     [[Params.Demo.Items]]
@@ -98,6 +99,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2018)"
       Image = "/images/projects/srvis.png"
       Paper = "/files/srvis.pdf"
+      Demo = "/srvis"
       Video = "https://www.youtube.com/watch?v=lenSZci4gy4"
       Authors = ["Di Weng*", "Ran Chen*", "Zikun Deng*", "Feiran Wu", "Jingmin Chen", "Yingcai Wu*"]
 
