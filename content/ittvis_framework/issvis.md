@@ -4,7 +4,7 @@ date: 2018-04-04T18:02:46+08:00
 type: "ittvis_framework"
 demo: "/iSSVis/"
 demo_name: "iSSVis"
-video: "/videos/issvis.mp4"
+video: "https://www.youtube.com/watch?v=lxhMTGrAerg"
 paper: "/files/issvis.pdf"
 ---
 # Overview

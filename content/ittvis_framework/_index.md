@@ -18,7 +18,7 @@ Till now, two projects have been proposed under the framework. The first project
   </a>
 </div>
 <div class="project">
-  <video src="/videos/issvis.mp4" controls="controls" width="100%"></video>
+  <video src="https://www.youtube.com/watch?v=lxhMTGrAerg" controls="controls" width="100%"></video>
 </div>
 
 <div class="link project">
@@ -27,7 +27,7 @@ Till now, two projects have been proposed under the framework. The first project
   </a>
 </div>
 <div class="project">
-  <video src="/videos/ittvis.mp4" controls="controls" width="100%"></video>
+  <video src="https://www.youtube.com/watch?v=yuninyIr2dQ" controls="controls" width="100%"></video>
 </div>
 </p>
 

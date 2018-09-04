@@ -7,7 +7,7 @@ year: "2017"
 journal: "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2017)"
 doi: "10.1109/TVCG.2017.2744218"
 paper: "/files/ittvis.pdf"
-video: "/videos/ittvis.mp4"
+video: "https://www.youtube.com/watch?v=yuninyIr2dQ"
 demo: "/iTTVis"
 image: "/images/projects/ittvis.jpg"
 sc_project: 11626044

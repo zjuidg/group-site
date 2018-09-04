@@ -6,7 +6,7 @@ publication: "/publications/ittvis"
 publication_name: "iTTVis: Interactive Visualization of Table Tennis Data"
 demo: "/iTTVis/"
 demo_name: "iTTVis"
-video: "/videos/ittvis.mp4"
+video: "https://www.youtube.com/watch?v=yuninyIr2dQ"
 paper: "/files/ittvis.pdf"
 ---
 # Overview
