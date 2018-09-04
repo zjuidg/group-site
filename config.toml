@@ -38,7 +38,7 @@ publishDir = "docs"
       Image = "/images/projects/forvizor.png"
       Source = "VAST 2018"
       Paper = "/files/forvizor.pdf"
-      Video = "/videos/forvizor.mp4"
+      Video = "https://www.youtube.com/watch?v=03U7PESGkOQ"
 
     [[Params.Demo.Items]]
       Title = "SRVis"
@@ -46,7 +46,7 @@ publishDir = "docs"
       Image = "/images/projects/srvis.png"
       Source = "InfoVis 2018"
       Paper = "/files/srvis.pdf"
-      Video = "/videos/srvis.mp4"
+      Video = "https://www.youtube.com/watch?v=lenSZci4gy4"
 
     [[Params.Demo.Items]]
       Title = "iStoryline"
@@ -54,7 +54,7 @@ publishDir = "docs"
       Image = "/images/projects/istoryline.png"
       Source = "InfoVis 2018"
       Paper = "/files/istoryline.pdf"
-      Video = "/videos/istoryline.mp4"
+      Video = "https://www.youtube.com/watch?v=on4KbLd2RiY"
     
     [[Params.Demo.Items]]
       Title = "ImageVis"
@@ -62,7 +62,7 @@ publishDir = "docs"
       Image = "/images/projects/imagevis.jpg"
       Source = "TVCG 2018"
       Paper = "/files/imgvis.pdf"
-      Video = "/videos/imgvis.mp4"
+      Video = "https://www.youtube.com/watch?v=dOhs3YZBZTM"
 
     [[Params.Demo.Items]]
       Title = "ReACH"
@@ -78,7 +78,7 @@ publishDir = "docs"
       Image = "/images/projects/ittvis.jpg"
       Source = "InfoVis 2017"
       Paper = "/files/ittvis.pdf"
-      Video = "/videos/ittvis.mp4"
+      Video = "https://www.youtube.com/watch?v=yuninyIr2dQ"
       Demo = "/iTTVis"
       Page = '/ittvis_framework'
 
@@ -89,7 +89,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2018)"
       Image = "/images/projects/forvizor.png"
       Paper = "/files/forvizor.pdf"
-      Video = "/videos/forvizor.mp4"
+      Video = "https://www.youtube.com/watch?v=03U7PESGkOQ"
       Authors = ["Yingcai Wu*", "Xiao Xie*", "Jiachen Wang*", "Dazhen Deng*", "Hongye Liang*", "Hui Zhang", "Shoubin Cheng", "Wei Chen"]
 
     [[Params.Publications.Items]]
@@ -98,7 +98,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2018)"
       Image = "/images/projects/srvis.png"
       Paper = "/files/srvis.pdf"
-      Video = "/videos/srvis.mp4"
+      Video = "https://www.youtube.com/watch?v=lenSZci4gy4"
       Authors = ["Di Weng*", "Ran Chen*", "Zikun Deng*", "Feiran Wu", "Jingmin Chen", "Yingcai Wu*"]
 
     [[Params.Publications.Items]]
@@ -107,7 +107,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2018)"
       Image = "/images/projects/istoryline.png"
       Paper = "/files/istoryline.pdf"
-      Video = "/videos/istoryline.mp4"
+      Video = "https://www.youtube.com/watch?v=on4KbLd2RiY"
       Authors = ["Tan Tang*", "Sadia Rubab*", "Jiewen Lai*", "Weiwei Cui", "Lingyun Yu", "Yingcai Wu*"]
     
     [[Params.Publications.Items]]
@@ -116,7 +116,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics"
       Image = "/images/projects/imagevis.jpg"
       Paper = "/files/imgvis.pdf"
-      Video = "/videos/imgvis.mp4"
+      Video = "https://www.youtube.com/watch?v=dOhs3YZBZTM"
       Authors = ["Xiao Xie*", "Xiwen Cai*", "Junpei Zhou*", "Nan Cao", "Yingcai Wu*"]
 
     [[Params.Publications.Items]]
@@ -180,7 +180,7 @@ publishDir = "docs"
       DOI = "10.1109/TVCG.2017.2764459"
       Paper = "/files/streamexplorer.pdf"
       Authors = ["Yingcai Wu*", "Zhutian Chen*", "Guodao Sun", "Xiao Xie*", "Nan Cao", "Shixia Liu", "Weiwei Cui"]
-      Video = "/videos/streamexplorer.mp4"
+      Video = "https://www.youtube.com/watch?v=CReWsrgMGI4"
 
     [[Params.Publications.Items]]
       Year = "2017"
@@ -198,7 +198,7 @@ publishDir = "docs"
       Image = "/images/projects/ittvis.jpg"
       DOI = "10.1109/TVCG.2017.2744218"
       Paper = "/files/ittvis.pdf"
-      Video = "/videos/ittvis.mp4"
+      Video = "https://www.youtube.com/watch?v=yuninyIr2dQ"
       Demo = "/iTTVis"
       Authors = ["Yingcai Wu*", "Ji Lan*", "Xinhuan Shu*", "Chenyang Ji*", "Kejian Zhao*", "Jiachen Wang*", "Hui Zhang"]
 
@@ -235,7 +235,7 @@ publishDir = "docs"
       Image = "/images/projects/smartadp.png"
       DOI = "10.1109/TVCG.2016.2598432"
       Paper = "/files/smartadp.pdf"
-      Video = "/videos/smartadp.mp4"
+      Video = "https://www.youtube.com/watch?v=Nkdup4YcX0A"
       Demo = "http://smartadp.chinacloudapp.cn/"
       Authors = ["Dongyu Liu*", "Di Weng*", "Yuhong Li", "Jie Bao", "Yu Zheng", "Huamin Qu", "Yingcai Wu*"]
 
