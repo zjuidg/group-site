@@ -446,12 +446,20 @@ publishDir = "docs"
       Group = ""
       Type = "Undergraduate"
       URL = "https://evenlasting.github.io/"
-    [[Params.Members.VisitingItems]]
+    [[Params.Members.Items]]
       Name = "Jiahui Chen"
       Photo = "images/people/chenjiahui.jpeg"
-      Position = "Visiting Student"
+      Position = "Master Since 2018"
       Group = "Urban Vis"
+      Type = "Master"
       URL = "https://jhchen6.github.io"
+    [[Params.Members.Items]]
+      Name = "Shuainan Ye"
+      Photo = "images/people/yeshuainan.jpg"
+      Position = "Ph.D. Since 2018"
+      Group = "Urban Vis"
+      Type = "Ph.D."
+      URL = "#"
 
   [Params.IttvisTools]
     [[Params.IttvisTools.Items]]
