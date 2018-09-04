@@ -1,6 +1,8 @@
-# ZJUVIS
-- Group Site.
-- Powered by [Hugo](https://gohugo.io/) and [ZJUVIS Theme](https://github.com/zjuvis/site-theme).
+# ZJUVIS Site
+> [Click here to visit the website](https://zjuvis.org)
+---
 
-## Deploy
-`./deploy.sh 'commit infomation'`
+[![Build Status](https://travis-ci.org/zjuvis/group-site.svg?branch=master)](https://travis-ci.org/zjuvis/group-site)
+
+Powered by [Hugo](https://gohugo.io/).
+
