@@ -46,7 +46,7 @@ publishDir = "docs"
       Image = "/images/projects/srvis.png"
       Source = "InfoVis 2018"
       Paper = "/files/srvis.pdf"
-      Demo = "/srvis"
+      Demo = "https://srvis.zjuvis.org/"
       Video = "https://www.youtube.com/watch?v=lenSZci4gy4"
 
     [[Params.Demo.Items]]
@@ -99,7 +99,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2018)"
       Image = "/images/projects/srvis.png"
       Paper = "/files/srvis.pdf"
-      Demo = "/srvis"
+      Demo = "https://srvis.zjuvis.org/"
       Video = "https://www.youtube.com/watch?v=lenSZci4gy4"
       Authors = ["Di Weng*", "Ran Chen*", "Zikun Deng*", "Feiran Wu", "Jingmin Chen", "Yingcai Wu*"]
 
@@ -238,7 +238,7 @@ publishDir = "docs"
       DOI = "10.1109/TVCG.2016.2598432"
       Paper = "/files/smartadp.pdf"
       Video = "https://www.youtube.com/watch?v=Nkdup4YcX0A"
-      Demo = "http://smartadp.chinacloudapp.cn/"
+      Demo = "http://smartadp.urban-computing.cn/"
       Authors = ["Dongyu Liu*", "Di Weng*", "Yuhong Li", "Jie Bao", "Yu Zheng", "Huamin Qu", "Yingcai Wu*"]
 
     [[Params.Publications.Items]]
