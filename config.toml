@@ -17,19 +17,23 @@ publishDir = "docs"
   StudentsTypes = ["Ph.D.", "Master", "Undergraduate"]
   
   [Params.Carousel]
-    Height = 420
+    Height = 590
     [[Params.Carousel.Items]]
-      Title = "Our paper has been accepted by IEEE VAST 2018!"
+      Title = "Xiao Xie presenting ForVizor at IEEE VAST 2018!"
       Description = "ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer"
-      Image = "/images/projects/forvizor.png"
+      Image = "/images/presentations/forvizor.jpg"
     [[Params.Carousel.Items]]
-      Title = "Our paper has been accepted by IEEE InfoVis 2018!"
+      Title = "Di Weng presenting SRVis at IEEE InfoVis 2018!"
       Description = "SRVis: Towards Better Spatial Integration in Ranking Visualization"
-      Image = "/images/projects/srvis.png"
+      Image = "/images/presentations/srvis.jpg"
     [[Params.Carousel.Items]]
-      Title = "Our paper has been accepted by IEEE InfoVis 2018!"
+      Title = "Tan Tang presenting iStoryline at IEEE InfoVis 2018!"
       Description = "iStoryline: Effective Convergence to Hand-drawn Storylines"
-      Image = "/images/projects/istoryline.png"
+      Image = "/images/presentations/istoryline.jpg"
+    [[Params.Carousel.Items]]
+      Title = "Xiao Xie presenting ImageVis at IEEE VAST 2018!"
+      Description = "A Semantic-based Method for Visualizing Large Image Collections"
+      Image = "/images/presentations/imgvis.jpg"
 
   [Params.Demo]
     [[Params.Demo.Items]]
@@ -284,19 +288,23 @@ publishDir = "docs"
       Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"/contact/\">contact us</a>."
     [[Params.News.Items]]
       Show = true
-      Date = "Sept 3rd, 2018"
+      Date = "Nov 14, 2018"
+      Summary = "Xiao Xie, Tan Tang, and Heming Zhu, two of our Ph.D. members and one of our Master members, have received National Scholarships. Congratulations!"
+    [[Params.News.Items]]
+      Show = true
+      Date = "Sept 3, 2018"
       Summary = "Our paper <b>ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer</b> has been accepted by IEEE VAST 2018."
     [[Params.News.Items]]
       Show = true
-      Date = "Sept 3rd, 2018"
+      Date = "Sept 3, 2018"
       Summary = "Our paper <b>SRVis: Towards Better Spatial Integration in Ranking Visualization</b> has been accepted by IEEE InfoVis 2018."
     [[Params.News.Items]]
       Show = true
-      Date = "Sept 3rd, 2018"
+      Date = "Sept 3, 2018"
       Summary = "Our paper <b>iStoryline: Effective Convergence to Hand-drawn Storylines</b> has been accepted by IEEE InfoVis 2018."
     [[Params.News.Items]]
       Show = false
-      Date = "Feb 5th, 2018"
+      Date = "Feb 5, 2018"
       Summary = "Our paper <b>A Semantic-based Method for Visualizing Large Image Collections</b> has been accepted by IEEE TVCG."
     [[Params.News.Items]]
       Show = false
