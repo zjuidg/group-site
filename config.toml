@@ -89,6 +89,15 @@ publishDir = "docs"
 
   [Params.Publications]
     [[Params.Publications.Items]]
+      Year = "2019"
+      Title = "MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics"
+      Image = "/images/projects/MarVisT.png"
+      Paper = "/files/MarVisT.pdf"
+      Video = "#"
+      Authors = ["Zhutian Chen*", "Yijia Su", "Yifang Wang*", "Qianwen Wang", "Huamin Qu", "Yingcai Wu*"]
+
+    [[Params.Publications.Items]]
       Year = "2018"
       Title = "ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2018)"
@@ -286,6 +295,10 @@ publishDir = "docs"
       Show = true
       Date = "Sep 1, 2017 - Pinned"
       Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"/contact/\">contact us</a>."
+    [[Params.News.Items]]
+      Show = true
+      Date = "Jan 14, 2019"
+      Summary = "Our paper <b>MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality</b> has been accepted by IEEE TVCG."
     [[Params.News.Items]]
       Show = true
       Date = "Nov 14, 2018"
