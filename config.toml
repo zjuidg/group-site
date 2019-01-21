@@ -90,11 +90,20 @@ publishDir = "docs"
   [Params.Publications]
     [[Params.Publications.Items]]
       Year = "2019"
+      Title = "Visual Analytics of Dynamic Interplay Between Behaviors in MMORPGs"
+      Journal = "Proc. of the IEEE PacificVis 2019"
+      Image = "/images/projects/bexplorer.png"
+      Paper = "/files/bexplorer-pvis2019.pdf"
+      Video = "https://youtu.be/rF45T48L--8"
+      Authors = ["Junhua Lu", "Xiao Xie*", "Ji Lan*", "Tai-Quan Peng", "Wei Chen", "Yingcai Wu*"]
+    
+    [[Params.Publications.Items]]
+      Year = "2019"
       Title = "MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality"
       Journal = "IEEE Transactions on Visualization and Computer Graphics"
       Image = "/images/projects/MarVisT.png"
       Paper = "/files/MarVisT.pdf"
-      Video = "#"
+      Video = "https://youtu.be/cbtbJXwpwdk"
       Authors = ["Zhutian Chen*", "Yijia Su", "Yifang Wang*", "Qianwen Wang", "Huamin Qu", "Yingcai Wu*"]
 
     [[Params.Publications.Items]]
@@ -297,6 +306,10 @@ publishDir = "docs"
       Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"/contact/\">contact us</a>."
     [[Params.News.Items]]
       Show = true
+      Date = "Jan 21, 2019"
+      Summary = "Our paper <b>Visual Analytics of Dynamic Interplay Between Behaviors in MMORPGs</b> has been accepted by IEEE PacificVis 2019."
+    [[Params.News.Items]]
+      Show = true
       Date = "Jan 14, 2019"
       Summary = "Our paper <b>MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality</b> has been accepted by IEEE TVCG."
     [[Params.News.Items]]
@@ -304,15 +317,15 @@ publishDir = "docs"
       Date = "Nov 14, 2018"
       Summary = "Xiao Xie, Tan Tang, and Heming Zhu, two of our Ph.D. members and one of our Master members, have received National Scholarships. Congratulations!"
     [[Params.News.Items]]
-      Show = true
+      Show = false
       Date = "Sept 3, 2018"
       Summary = "Our paper <b>ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer</b> has been accepted by IEEE VAST 2018."
     [[Params.News.Items]]
-      Show = true
+      Show = false
       Date = "Sept 3, 2018"
       Summary = "Our paper <b>SRVis: Towards Better Spatial Integration in Ranking Visualization</b> has been accepted by IEEE InfoVis 2018."
     [[Params.News.Items]]
-      Show = true
+      Show = false
       Date = "Sept 3, 2018"
       Summary = "Our paper <b>iStoryline: Effective Convergence to Hand-drawn Storylines</b> has been accepted by IEEE InfoVis 2018."
     [[Params.News.Items]]
@@ -483,6 +496,20 @@ publishDir = "docs"
       Group = "Urban Vis"
       Type = "Ph.D."
       URL = "#"
+    [[Params.Members.Items]]
+      Name = "Xiaodong Ge"
+      Photo = "images/people/gexiaodong.jpg"
+      Position = "Undergraduate"
+      Group = "Urban Vis"
+      Type = "Undergraduate"
+      URL = "https://xdge.github.io/"
+    [[Params.Members.Items]]
+      Name = "Kai Xiong"
+      Photo = "images/people/xiongkai.jpg"
+      Position = "Undergraduate"
+      Group = "InfoVis"
+      Type = "Undergraduate"
+      URL = "https://xkkevin.github.io/"
 
   [Params.IttvisTools]
     [[Params.IttvisTools.Items]]
