@@ -313,7 +313,7 @@ publishDir = "docs"
       Date = "Jan 14, 2019"
       Summary = "Our paper <b>MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality</b> has been accepted by IEEE TVCG."
     [[Params.News.Items]]
-      Show = true
+      Show = false
       Date = "Nov 14, 2018"
       Summary = "Xiao Xie, Tan Tang, and Heming Zhu, two of our Ph.D. members and one of our Master members, have received National Scholarships. Congratulations!"
     [[Params.News.Items]]
@@ -390,13 +390,6 @@ publishDir = "docs"
       Group = "InfoVis"
       Type = "Ph.D."
       URL = "https://sadiarubab.github.io/home/"
-    [[Params.Members.Items]]
-      Name = "Heming Zhu"
-      Photo = "images/people/zhuheming.jpg"
-      Position = "Master Since 2017"
-      Group = "AR Vis"
-      Type = "Master"
-      URL = "http://wootwootwo.me/"
     [[Params.Members.Items]]
       Name = "Kaijuan Yuan"
       Photo = "images/people/yuankaijuan.jpg"
