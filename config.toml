@@ -1,18 +1,18 @@
 # Page settings
 BaseURL = "https://zjuvis.github.io/"
-Title = "ZJUVIS"
+Title = "ZJUIDG"
 LanguageCode = "en-us"
 theme = "zjuvis"
 publishDir = "docs"
 
 [Params]
-  GroupName = "ZJUVIS"
+  GroupName = "ZJUIDG"
 
   # Meta
-  Author = "ZJUVIS"
-  Description = "ZJUVIS Research Group Home"
+  Author = "ZJUIDG"
+  Description = "ZJUIDG Research Group Home"
   Email = "zjuvis@gmail.com"
-  Keywords = "ZJUVIS, visualization, visual analysis, academic, research, Zhejiang University"
+  Keywords = "ZJUIDG, visualization, visual analysis, academic, research, Zhejiang University"
 
   StudentsTypes = ["Ph.D.", "Master", "Undergraduate"]
   
@@ -342,7 +342,7 @@ publishDir = "docs"
       Name = "Yingcai Wu"
       Photo = "images/people/ycwu.jpg"
       Titles = [
-        "<b>Head</b>, ZJUVIS (VisGroup at Zhejiang University)",
+        "<b>Head</b>, ZJUIDG (VisGroup at Zhejiang University)",
         "<b>ZJU100 Young Professor</b>, State Key Lab of CAD & CG",
         "<b>Assistant Dean</b>, College of Computer Science and Technology", 
         "Zhejiang University, Hangzhou, Zhejiang, China"
