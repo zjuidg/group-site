@@ -1,18 +1,18 @@
 # Page settings
-BaseURL = "https://zjuvis.github.io/"
-Title = "IDG"
+BaseURL = "https://zjuidg.org/"
+Title = "Interactive Data Group @ Zhejiang University"
 LanguageCode = "en-us"
-theme = "zjuvis"
+theme = "zjuidg"
 publishDir = "docs"
 
 [Params]
-  GroupName = "Interactive Data Group @ZJU"
+  GroupName = "Interactive Data Group"
 
   # Meta
-  Author = "IDG"
-  Description = "IDG Research Group Home"
-  Email = "zjuvis@gmail.com"
-  Keywords = "IDG, visualization, visual analysis, academic, research, Zhejiang University"
+  Author = "ZJUIDG"
+  Description = "Interactive Data Group (ZJUIDG) Homepage"
+  Email = "ycwu@zju.edu.cn"
+  Keywords = "Interactive Data Group, IDG, visualization, visual analysis, academic, research, Zhejiang University"
 
   StudentsTypes = ["Ph.D.", "Master", "Undergraduate"]
   
@@ -64,7 +64,7 @@ publishDir = "docs"
       Image = "/images/projects/srvis.png"
       Source = "InfoVis 2018"
       Paper = "/files/srvis.pdf"
-      Demo = "https://srvis.zjuvis.org/"
+      Demo = "https://srvis.zjuidg.org/"
       Video = "https://www.youtube.com/watch?v=lenSZci4gy4"
 
     [[Params.Demo.Items]]
@@ -135,7 +135,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE InfoVis 2018)"
       Image = "/images/projects/srvis.png"
       Paper = "/files/srvis.pdf"
-      Demo = "https://srvis.zjuvis.org/"
+      Demo = "https://srvis.zjuidg.org/"
       Video = "https://www.youtube.com/watch?v=lenSZci4gy4"
       Authors = ["Di Weng*", "Ran Chen*", "Zikun Deng*", "Feiran Wu", "Jingmin Chen", "Yingcai Wu*"]
 

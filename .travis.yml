@@ -19,7 +19,7 @@ deploy:
   github_token: $GITHUB_TOKEN
   on:
     branch: master
-  repo: zjuvis/zjuvis.github.io
+  repo: zjuidg/zjuidg.github.io
   target_branch: master
   fqdn: zjuidg.org
 
