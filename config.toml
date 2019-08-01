@@ -102,6 +102,22 @@ publishDir = "docs"
       Page = '/ittvis_framework'
 
   [Params.Publications]
+  [[Params.Publications.Items]]
+      Year = "2019"
+      Title = "Tac-Simur: Tactic-based Simulative Visual Analytics of Table Tennis"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2019)"
+      Image = "/images/projects/Tac-Simur.png"
+      Paper = "/files/Simur.pdf"
+      Authors = ["Jiachen Wang*", "Kejian Zhao*", "Dazhen Deng*", "Anqi Cao*", "Xiao Xie*", "Zheng Zhou", "Hui Zhang" "Yingcai Wu*"]
+
+    [[Params.Publications.Items]]
+      Year = "2019"
+      Title = "AirVis: Visual Analytics of Air Pollution Propagation"
+      Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2019)"
+      Image = "/images/projects/AirVis.png"
+      Paper = "/files/AirVis.pdf"
+      Authors = ["Zikun Deng*", "Di Weng*", "Jiahui Chen*", "Ren Liu", "Zhibin Wang", "Jie Bao", "Yu Zheng" "Yingcai Wu*"]
+
     [[Params.Publications.Items]]
       Year = "2019"
       Title = "Visual Analytics of Dynamic Interplay Between Behaviors in MMORPGs"
