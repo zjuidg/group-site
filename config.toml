@@ -107,7 +107,7 @@ publishDir = "docs"
       Title = "Tac-Simur: Tactic-based Simulative Visual Analytics of Table Tennis"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2019)"
       Image = "/images/projects/Tac-Simur.png"
-      Paper = "/files/Simur.pdf"
+      Paper = "/files/Tac-Simur.pdf"
       Authors = ["Jiachen Wang*", "Kejian Zhao*", "Dazhen Deng*", "Anqi Cao*", "Xiao Xie*", "Zheng Zhou", "Hui Zhang" "Yingcai Wu*"]
 
     [[Params.Publications.Items]]
