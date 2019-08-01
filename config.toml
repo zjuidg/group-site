@@ -37,6 +37,20 @@ publishDir = "docs"
 
   [Params.Demo]
     [[Params.Demo.Items]]
+      Title = "Tac-Simur"
+      Description = "In this study, we propose a well-established hybrid second-order Markov chain model to characterize and simulate the competition process in table tennis. Compared with existing methods, our approach is the first to support the effective simulation of tactics, which represent high-level competition strategies in table tennis. Furthermore, we introduce a visual analytics system called Tac-Simur based on the proposed model for simulative visual analytics. "
+      Image = "/images/projects/Tac-Simur.png"
+      Source = "VAST 2019"
+      Paper = "/files/Tac-Simur.pdf"
+
+    [[Params.Demo.Items]]
+      Title = "AirVis"
+      Description = "In this work, we develop a novel pattern mining framework to model pollutant transportation and extract frequent propagation patterns efficiently from large-scale atmospheric data. Furthermore, we design and develop AirVis, a novel visual analytics system that assists domain experts in efficiently capturing and interpreting the uncertain propagation patterns of air pollution based on graph visualizations."
+      Image = "/images/projects/AirVis.png"
+      Source = "VAST 2019"
+      Paper = "/files/AirVis.pdf"
+    
+    [[Params.Demo.Items]]
       Title = "ForVizor"
       Description = "In this study, we design a novel spatio-temporal visual representation of changes in team formation, allowing analysts to visually analyze the evolution of formations and track the spatial flow of players within formations over time. Based on the new design, we fur-ther design and develop ForVizor, a visual analytics system, which empowers users to track the spatio-temporal changes in forma-tion and understand how and why such changes occur. "
       Image = "/images/projects/forvizor.png"
