@@ -476,7 +476,7 @@ publishDir = "docs"
       Position = "Ph.D. Since 2018"
       Group = "Urban Vis"
       Type = "Ph.D."
-      URL = "http://zikun-deng.ac.cn/"
+      URL = "http://zikunrain.netlify.com/"
     [[Params.Members.Items]]
       Name = "Junxiu Tang"
       Photo = "images/people/tangjunxiu.jpg"
