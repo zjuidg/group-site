@@ -42,6 +42,7 @@ publishDir = "docs"
       Image = "/images/projects/Tac-Simur.png"
       Source = "VAST 2019"
       Paper = "/files/Tac-Simur.pdf"
+      Video = "https://youtu.be/_I6cne3Wd4U"
 
     [[Params.Demo.Items]]
       Title = "AirVis"
@@ -49,6 +50,7 @@ publishDir = "docs"
       Image = "/images/projects/AirVis.png"
       Source = "VAST 2019"
       Paper = "/files/AirVis.pdf"
+      Video = "https://youtu.be/orjRmmGVT-4"
     
     [[Params.Demo.Items]]
       Title = "ForVizor"
@@ -108,6 +110,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2019)"
       Image = "/images/projects/Tac-Simur.png"
       Paper = "/files/Tac-Simur.pdf"
+      Video = "https://youtu.be/_I6cne3Wd4U"
       Authors = ["Jiachen Wang*", "Kejian Zhao*", "Dazhen Deng*", "Anqi Cao*", "Xiao Xie*", "Zheng Zhou", "Hui Zhang", "Yingcai Wu*"]
 
     [[Params.Publications.Items]]
@@ -116,6 +119,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Visualization and Computer Graphics (IEEE VAST 2019)"
       Image = "/images/projects/AirVis.png"
       Paper = "/files/AirVis.pdf"
+      Video = "https://youtu.be/orjRmmGVT-4"
       Authors = ["Zikun Deng*", "Di Weng*", "Jiahui Chen*", "Ren Liu", "Zhibin Wang", "Jie Bao", "Yu Zheng", "Yingcai Wu*"]
 
     [[Params.Publications.Items]]
