@@ -548,7 +548,7 @@ publishDir = "docs"
       Group = "Sports Vis"
       Type = "Master"
       URL = "https://zhaokejian.github.io/about/"
-    [[Params.Members.Items]]
+    [[Params.Members.PastItems]]
       Name = "Zhuohao Zhang"
       Photo = "images/people/zhangzhuohao.jpg"
       Position = "Undergraduate"
