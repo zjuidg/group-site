@@ -465,7 +465,7 @@ publishDir = "docs"
       Position = "Ph.D. Since 2019"
       Group = "Sports Vis"
       Type = "Ph.D."
-      URL = "#"
+      URL = "https://wujiang5521.github.io/"
     [[Params.Members.Items]]
       Name = "Anqi Cao"
       Photo = "images/people/caoanqi.jpg"
