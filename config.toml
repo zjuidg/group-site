@@ -444,7 +444,7 @@ publishDir = "docs"
       Position = "Ph.D. Since 2018"
       Group = "Urban Vis"
       Type = "Ph.D."
-      URL = "http://zikunrain.netlify.com/"
+      URL = "https://zkdeng.org/"
     [[Params.Members.Items]]
       Name = "Shuainan Ye"
       Photo = "images/people/yeshuainan.jpg"
