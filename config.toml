@@ -458,7 +458,7 @@ publishDir = "docs"
       Position = "Ph.D. Since 2019"
       Group = "InfoVis"
       Type = "Ph.D."
-      URL = "#"
+      URL = "https://ahugh19.github.io/"
     [[Params.Members.Items]]
       Name = "Jiang Wu"
       Photo = "images/people/wujiang.jpeg"
