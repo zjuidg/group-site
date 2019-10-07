@@ -430,7 +430,7 @@ publishDir = "docs"
       Position = "Ph.D. Since 2018"
       Group = "Sports Vis"
       Type = "Ph.D."
-      URL = "https://dengdakzen.github.io/Introduction/"
+      URL = "https://dengdakzen.github.io/homePage/"
     [[Params.Members.Items]]
       Name = "Jiachen Wang"
       Photo = "images/people/wangjiachen.jpg"
