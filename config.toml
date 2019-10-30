@@ -19,21 +19,13 @@ publishDir = "docs"
   [Params.Carousel]
     Height = 590
     [[Params.Carousel.Items]]
-      Title = "Xiao Xie presenting ForVizor at IEEE VAST 2018!"
-      Description = "ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer"
-      Image = "/images/presentations/forvizor.jpg"
+      Title = "Zikun Deng presenting AirVis at IEEE VAST 2019!"
+      Description = "AirVis: Visual Analytics of Air Pollution Propagation"
+      Image = "/images/presentations/airvis.jpg"
     [[Params.Carousel.Items]]
-      Title = "Di Weng presenting SRVis at IEEE InfoVis 2018!"
-      Description = "SRVis: Towards Better Spatial Integration in Ranking Visualization"
-      Image = "/images/presentations/srvis.jpg"
-    [[Params.Carousel.Items]]
-      Title = "Tan Tang presenting iStoryline at IEEE InfoVis 2018!"
-      Description = "iStoryline: Effective Convergence to Hand-drawn Storylines"
-      Image = "/images/presentations/istoryline.jpg"
-    [[Params.Carousel.Items]]
-      Title = "Xiao Xie presenting ImageVis at IEEE VAST 2018!"
-      Description = "A Semantic-based Method for Visualizing Large Image Collections"
-      Image = "/images/presentations/imgvis.jpg"
+      Title = "Jiachen Wang presenting Tac-Simur at IEEE VAST 2019!"
+      Description = "Tac-Simur: Tactic-based Simulative Visual Analytics of Table Tennis"
+      Image = "/images/presentations/tac-simur.jpg"
 
   [Params.Demo]
     [[Params.Demo.Items]]
@@ -340,10 +332,22 @@ publishDir = "docs"
       Summary = "We are looking for strongly-motivated PostDoc, PhD, Master, and undergraduate students to join us! If you are interested in visualization research, please <a href=\"/contact/\">contact us</a>."
     [[Params.News.Items]]
       Show = true
+      Date = "Oct 30, 2019"
+      Summary = "Di Weng and Jiachen Wang, two of our Ph.D. members, have received National Scholarships. Congratulations!"
+    [[Params.News.Items]]
+      Show = true
+      Date = "Oct 27, 2019"
+      Summary = "Our paper <b>AirVis: Visual Analytics of Air Pollution Propagation</b> has been accepted by IEEE VAST 2019."
+    [[Params.News.Items]]
+      Show = true
+      Date = "Oct 27, 2019"
+      Summary = "Our paper <b>Tac-Simur: Tactic-based Simulative Visual Analytics of Table Tennis</b> has been accepted by IEEE VAST 2019."
+    [[Params.News.Items]]
+      Show = false
       Date = "Jan 21, 2019"
       Summary = "Our paper <b>Visual Analytics of Dynamic Interplay Between Behaviors in MMORPGs</b> has been accepted by IEEE PacificVis 2019."
     [[Params.News.Items]]
-      Show = true
+      Show = false
       Date = "Jan 14, 2019"
       Summary = "Our paper <b>MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality</b> has been accepted by IEEE TVCG."
     [[Params.News.Items]]
