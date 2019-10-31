@@ -26,6 +26,10 @@ publishDir = "docs"
       Title = "Jiachen Wang presenting Tac-Simur at IEEE VAST 2019!"
       Description = "Tac-Simur: Tactic-based Simulative Visual Analytics of Table Tennis"
       Image = "/images/presentations/tac-simur.jpg"
+    [[Params.Carousel.Items]]
+      Title = "Zhutian Chen presenting MARVisT at IEEE InfoVis 2019!"
+      Description = "MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality"
+      Image = "/images/presentations/marvist.jpg"
 
   [Params.Demo]
     [[Params.Demo.Items]]
@@ -58,7 +62,6 @@ publishDir = "docs"
       Image = "/images/projects/srvis.png"
       Source = "InfoVis 2018"
       Paper = "/files/srvis.pdf"
-      Demo = "https://srvis.zjuidg.org/"
       Video = "https://www.youtube.com/watch?v=lenSZci4gy4"
 
     [[Params.Demo.Items]]
