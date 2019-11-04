@@ -47,6 +47,14 @@ publishDir = "docs"
       Source = "VAST 2019"
       Paper = "/files/AirVis.pdf"
       Video = "https://youtu.be/orjRmmGVT-4"
+
+    [[Params.Demo.Items]]
+      Title = "MARVisT"
+      Description = "We design and implement MARVisT, a mobile authoring tool that leverages information from reality to assist non-experts in creating expressive AR glyph-based visualizations rapidly and effortlessly, reshaping the representation of the real world with data."
+      Image = "/images/projects/MarVisT.png"
+      Source = "TVCG 2019"
+      Paper = "/files/MarVisT.pdf"
+      Video = "https://youtu.be/cbtbJXwpwdk"
     
     [[Params.Demo.Items]]
       Title = "ForVizor"
