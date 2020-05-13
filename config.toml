@@ -539,20 +539,27 @@ publishDir = "docs"
       Type = "Master"
       URL = "https://louise777.github.io/HuihuaLu.github.io/index.html"
     [[Params.Members.Items]]
+      Name = "Renzhong Li"
+      Photo = "images/people/lirenzhong.jpg"
+      Position = "Master Since 2020"
+      Group = "InfoVis"
+      Type = "Master"
+      URL = "https://evenlasting.github.io/"
+    [[Params.Members.Items]]
       Name = "Jing Zhang"
       Photo = "images/people/zhangjing.jpg"
       Position = "Master Since 2020"
       Group = "Urban Vis"
       Type = "Master"
       URL = ""
-
     [[Params.Members.Items]]
-      Name = "Renzhong Li"
-      Photo = "images/people/lirenzhong.jpg"
-      Position = "Undergraduate"
-      Group = "InfoVis"
-      Type = "Undergraduate"
-      URL = "https://evenlasting.github.io/"
+      Name = "Yuting Liu"
+      Photo = "images/people/liuyuting.jpg"
+      Position = "Master Since 2020"
+      Group = "Urban Vis"
+      Type = "Master"
+      URL = ""
+
 
     [[Params.Members.PastItems]]
       Name = "Yifang Wang"
