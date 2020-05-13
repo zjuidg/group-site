@@ -15,7 +15,7 @@ publishDir = "docs"
   Keywords = "Interactive Data Group, IDG, visualization, visual analysis, academic, research, Zhejiang University"
 
   StudentsTypes = ["Ph.D.", "Master", "Undergraduate"]
-  
+
   [Params.Carousel]
     Height = 590
     [[Params.Carousel.Items]]
@@ -55,7 +55,7 @@ publishDir = "docs"
       Source = "TVCG 2019"
       Paper = "/files/MarVisT.pdf"
       Video = "https://youtu.be/cbtbJXwpwdk"
-    
+
     [[Params.Demo.Items]]
       Title = "ForVizor"
       Description = "In this study, we design a novel spatio-temporal visual representation of changes in team formation, allowing analysts to visually analyze the evolution of formations and track the spatial flow of players within formations over time. Based on the new design, we fur-ther design and develop ForVizor, a visual analytics system, which empowers users to track the spatio-temporal changes in forma-tion and understand how and why such changes occur. "
@@ -79,7 +79,7 @@ publishDir = "docs"
       Source = "InfoVis 2018"
       Paper = "/files/istoryline.pdf"
       Video = "https://www.youtube.com/watch?v=on4KbLd2RiY"
-    
+
     [[Params.Demo.Items]]
       Title = "ImageVis"
       Description = "Interactive visualization of large image collections is important and useful. We propose a novel co-embedding model to project images and the associated semantic keywords to the same 2D space. Our system naturally supports multi-scale visualization, navigation, and iterative refinements of the co-embedding layout."
@@ -133,7 +133,7 @@ publishDir = "docs"
       Paper = "/files/bexplorer-pvis2019.pdf"
       Video = "https://youtu.be/rF45T48L--8"
       Authors = ["Junhua Lu", "Xiao Xie*", "Ji Lan*", "Tai-Quan Peng", "Wei Chen", "Yingcai Wu*"]
-    
+
     [[Params.Publications.Items]]
       Year = "2019"
       Title = "MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality"
@@ -170,7 +170,7 @@ publishDir = "docs"
       Paper = "/files/istoryline.pdf"
       Video = "https://www.youtube.com/watch?v=on4KbLd2RiY"
       Authors = ["Tan Tang*", "Sadia Rubab*", "Jiewen Lai*", "Weiwei Cui", "Lingyun Yu", "Yingcai Wu*"]
-    
+
     [[Params.Publications.Items]]
       Year = "2018"
       Title = "A Semantic-based Method for Visualizing Large Image Collections"
@@ -393,7 +393,7 @@ publishDir = "docs"
       Titles = [
         "<b>Head</b>, IDG (Interactive Data Group at Zhejiang University)",
         "<b>ZJU100 Young Professor</b>, State Key Lab of CAD & CG",
-        "<b>Assistant Dean</b>, College of Computer Science and Technology", 
+        "<b>Assistant Dean</b>, College of Computer Science and Technology",
         "Zhejiang University, Hangzhou, Zhejiang, China"
       ]
       URL = "http://www.ycwu.org/"
@@ -538,7 +538,14 @@ publishDir = "docs"
       Group = "Sports Vis"
       Type = "Master"
       URL = "https://louise777.github.io/HuihuaLu.github.io/index.html"
-    
+    [[Params.Members.Items]]
+      Name = "Jing Zhang"
+      Photo = "images/people/zhangjing.jpg"
+      Position = "Master Since 2020"
+      Group = "Urban Vis"
+      Type = "Master"
+      URL = ""
+
     [[Params.Members.Items]]
       Name = "Renzhong Li"
       Photo = "images/people/lirenzhong.jpg"
@@ -546,7 +553,7 @@ publishDir = "docs"
       Group = "InfoVis"
       Type = "Undergraduate"
       URL = "https://evenlasting.github.io/"
-    
+
     [[Params.Members.PastItems]]
       Name = "Yifang Wang"
       Photo = "images/people/wangyifang.jpg"
