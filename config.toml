@@ -124,14 +124,6 @@ publishDir = "docs"
       Authors = ["Di Weng*", "Ran Chen*", "Jianhui Zhang", "Jie Bao", "Yu Zheng", "Yingcai Wu*"]
 
     [[Params.Publications.Items]]
-      Year = "2018"
-      Title = "A User Study on the Capability of Three Geo-based Features in Analyzing and Locating Trajectories"
-      Journal = "IEEE Transactions on Intelligent Transportation Systems"
-      Image = "/images/projects/ITS20Traj.png"
-      Paper = "/files/ITS20Traj.pdf"
-      Authors = ["Xumeng Wang", "Tianlong Gu", "Xiaonan Luo", "Xiwen Cai*", "Tianyi Lao", "Wenlong Chen", "Yingcai Wu*", "Jinhui Yu", "Wei Chen"]
-
-    [[Params.Publications.Items]]
       Year = "2020"
       Title = "Dynamic Public Resource Allocation based on Human Mobility Prediction"
       Journal = "Proc. of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 2020"
@@ -139,13 +131,6 @@ publishDir = "docs"
       Paper = "/files/UbiComp20ResourceAllocation.pdf"
       Authors = ["Sijie Ruan", "Jie Bao", "Yuxuan Liang", "Ruiyuan Li", "Tianfu He", "Chuishi Meng", "Yanhua Li", "Yingcai Wu*", "Yu Zheng"]
 
-    [[Params.Publications.Items]]
-      Year = "2018"
-      Title = "Efficient Path Query Processing over Massive Trajectories on the Cloud"
-      Journal = "IEEE Transactions on Big Data"
-      Image = "/images/projects/TBD18PathQuery.png"
-      Paper = "/files/TBD18PathQuery.pdf"
-      Authors = ["Ruiyuan Li", "Sijie Ruan", "Jie Bao", "Yanhua Li", "Yingcai Wu*", "Liang Hong", "Yu Zheng"]
 
     [[Params.Publications.Items]]
       Year = "2019"
@@ -219,6 +204,22 @@ publishDir = "docs"
       Paper = "/files/imgvis.pdf"
       Video = "https://www.youtube.com/watch?v=dOhs3YZBZTM"
       Authors = ["Xiao Xie*", "Xiwen Cai*", "Junpei Zhou*", "Nan Cao", "Yingcai Wu*"]
+    
+        [[Params.Publications.Items]]
+      Year = "2018"
+      Title = "A User Study on the Capability of Three Geo-based Features in Analyzing and Locating Trajectories"
+      Journal = "IEEE Transactions on Intelligent Transportation Systems"
+      Image = "/images/projects/ITS20Traj.png"
+      Paper = "/files/ITS20Traj.pdf"
+      Authors = ["Xumeng Wang", "Tianlong Gu", "Xiaonan Luo", "Xiwen Cai*", "Tianyi Lao", "Wenlong Chen", "Yingcai Wu*", "Jinhui Yu", "Wei Chen"]
+    
+    [[Params.Publications.Items]]
+      Year = "2018"
+      Title = "Efficient Path Query Processing over Massive Trajectories on the Cloud"
+      Journal = "IEEE Transactions on Big Data"
+      Image = "/images/projects/TBD18PathQuery.png"
+      Paper = "/files/TBD18PathQuery.pdf"
+      Authors = ["Ruiyuan Li", "Sijie Ruan", "Jie Bao", "Yanhua Li", "Yingcai Wu*", "Liang Hong", "Yu Zheng"]
 
     [[Params.Publications.Items]]
       Year = "2018"
