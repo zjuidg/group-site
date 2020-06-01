@@ -113,6 +113,7 @@ publishDir = "docs"
       Journal = "IEEE Transactions on Intelligent Transportation Systems"
       Image = "/images/projects/CoVizor.png"
       Paper = "/files/ITS20CoVizor.PDF"
+      Video = "https://youtu.be/0T0xe-rppSo"
       Authors = ["Yingcai Wu*", "Di Weng*", "Zikun Deng*", "Jie Bao", "Mingliang Xu", "Zhangye Wang", "Yu Zheng", "Zhiyu Ding", "Wei Chen"]
     
     [[Params.Publications.Items]]
